@@ -17,7 +17,7 @@ website:
       - pubs.qmd
       # - posts.qmd
       - text: Resume
-        href: https://drive.google.com/file/d/1vQ2W9kZ55bMjbMUKZFN7JJlxr-H_fRsx/view?usp=sharing
+        href: https://drive.google.com/file/d/1RGaBrnTQ00pwP5oHDzYmtUhFyzXIOIz9/view?usp=share_link
         # external: true
       # - icon: envelope-fill
       #   href: mailto:vsmasti@gmail.com
