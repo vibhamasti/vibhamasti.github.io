@@ -1,0 +1,55 @@
+---
+title: "vibha masti"
+# listing:
+#   contents: posts
+#   sort: "date desc"
+#   type: default
+#   categories: true
+#   sort-ui: false
+#   filter-ui: false
+page-layout: full
+# title-block-banner: true
+image: profile.png
+about: 
+  id: vibha-masti-header
+  template: trestles
+  image-width: 10em
+  links:
+    - icon: envelope-fill
+      text: personal mail
+      href: mailto:vsmasti@gmail.com
+    - icon: envelope-fill
+      text: college mail
+      href: mailto:vibha@pesu.pes.edu
+    - icon: linkedin
+      text: linkedin
+      href: https://www.linkedin.com/in/vibha-masti/
+    - icon: youtube
+      text: youtube
+      href: https://www.youtube.com/@VibhaMasti
+    - icon: github
+      text: github
+      href: https://github.com/vibhamasti
+---
+
+:::{#vibha-masti-header}
+
+Hi there :wave:! I'm a senior undergraduate **Computer Science and Engineering** student at PES University, Bangalore. I have been learning to play the South-Indian instrument Saraswathi Veena in the Carnatic style over the last 8 years.
+
+My research interests lie in machine learning and related fields. I have worked on projects in the domains of data analytics, graph machine learning, semi-supervised learning, NLP and Music Information Retrieval. I also have experience interning at [Vogo](https://vogo.in/), [Netradyne](https://www.netradyne.com/), and Goldman Sachs. My work has mainly been in the fields of software engineering, backend engineering and data engineering. You can find my detailed CV [here](https://drive.google.com/file/d/1vQ2W9kZ55bMjbMUKZFN7JJlxr-H_fRsx/view?usp=sharing).
+
+I enjoy making concise, pictorial and aesthetically-pleasing lecture notes that my peers at college have been using to study since my first year (~38,000+ hits to the [link](https://bit.ly/pesu-btech-resources)). This really helped my juniors and peers during the pandemic as it was very difficult for everyone to keep up with all the online classes during such difficult times.
+
+I'm looking for an opportunity where I can utilize my proven academic and creative capabilities along with my previous internship experience to contribute to exciting projects!
+
+:::
+
+## News
+
+### 2022
+
+- **[12/04]** I volunteered for the ISMIR 2022 conference in Bangalore, India from 4th to 9th December 2022.
+- **[09/19]** I attended the ECML-PKDD 2022 conference in Grenoble, France from 19th to 23rd September with my teammates to present at the MLG workshop. Vlog coming soon (I hope)!
+- **[07/01]** I traveled to Mumbai with my teammates to attend the TENSYMP conference and present our paper. I made a YouTube video about the experience [here](https://www.youtube.com/watch?v=T6xu4eKhvac)!
+- **[06/06]** I started my summer internship at Goldman Sachs.
+- **[06/03]** Made my first ever [vlog](https://www.youtube.com/watch?v=EzQwSakbJ_U&t=4s)! It's about my 6th semester of college which was (finally) in-person!

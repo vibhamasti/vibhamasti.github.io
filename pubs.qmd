@@ -1,0 +1,26 @@
+---
+title: "Publications"
+page-layout: full
+---
+
+<!-- List of publications -->
+
+### 2022
+
+- #### [C3PO: A Lightweight Copying Mechanism for Translating Pseudocode to Code](https://aclanthology.org/2022.aacl-srw.7.pdf)
+  - *Vishruth Veerendranath, **Vibha Masti**, Prajwal Anagani, Mamatha HR*
+  - AACL-IJCNLP 2022 - Student Research Workshop
+
+- #### GraphCoReg: Co-Training for Regression on Temporal Graphs
+  - *Harshith Mohan Kumar, Vishruth Veerendranath, **Vibha Masti**, Divya Shekar, Bhaskarjyoti Das*
+  - ECML-PKDD 2022 - International Workshop on Mining and Learning with Graphs
+  - <span style="color: #E8590B"> **Student Best Paper Award** </span> :trophy:
+
+- #### [Multivariate Covid-19 Forecasting with Vaccinations as a factor: the case of India and USA](https://ieeexplore.ieee.org/document/9864476)
+  - ***Vibha Masti**, Vishruth Veerendranath, Harshith Mohan Kumar*
+  - ICML 2022 - 1st Workshop on Healthcare AI and COVID-19
+  - IEEE Region 10 Symposium (TENSYMP) 2022
+
+- #### [A Comparative Study of Algorithms for Intelligent Traffic Signal Control](https://arxiv.org/abs/2109.00937)
+  - *Hrishit Chaudhuri, **Vibha Masti**, Vishruth Veerendranath*
+  - ICMLAS 2021

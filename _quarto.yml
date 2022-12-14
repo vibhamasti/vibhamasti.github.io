@@ -1,0 +1,41 @@
+project:
+  type: website
+  output-dir: docs
+  preview: 
+      browser: true
+      port: 4088
+
+website:
+  title: "vibha masti"
+  favicon: profile.png
+  twitter-card: true
+  page-footer: 
+    left: Copyright 2022, Vibha Masti
+    right: This website was made with &#10084; using <a href="https://quarto.org/">Quarto</a>.
+  navbar:
+    right:
+      - pubs.qmd
+      # - posts.qmd
+      - text: Resume
+        href: https://drive.google.com/file/d/1vQ2W9kZ55bMjbMUKZFN7JJlxr-H_fRsx/view?usp=sharing
+        # external: true
+      # - icon: envelope-fill
+      #   href: mailto:vsmasti@gmail.com
+      # - icon: linkedin
+      #   href: https://www.linkedin.com/in/vibha-masti/
+      # - icon: youtube
+      #   href: https://www.youtube.com/@VibhaMasti
+      # - icon: github
+      #   href: https://github.com/vibhamasti
+      # - icon: twitter
+      #   href: https://twitter.com
+format:
+  html:
+    # link-external-icon: true
+    # link-external-newwindow: true
+    from: markdown+emoji
+    theme: minty
+    css: styles.scss
+
+
+
