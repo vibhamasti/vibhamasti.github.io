@@ -22,5 +22,5 @@ page-layout: full
   - IEEE Region 10 Symposium (TENSYMP) 2022
 
 - #### [A Comparative Study of Algorithms for Intelligent Traffic Signal Control](https://arxiv.org/abs/2109.00937)
-  - *Hrishit Chaudhuri, **Vibha Masti**, Vishruth Veerendranath*
+  - *Hrishit Chaudhuri, **Vibha Masti**, Vishruth Veerendranath, S Natarajan*
   - ICMLAS 2021

@@ -34,7 +34,7 @@ about:
 
 :::{#vibha-masti-header}
 
-Hi there :wave:! I'm a senior undergraduate **Computer Science and Engineering** student at PES University, Bangalore. I have been learning to play the South-Indian instrument Saraswathi Veena in the Carnatic style over the last 8 years.
+Hi there :wave:&#127997;! I'm a senior undergraduate **Computer Science and Engineering** student at PES University, Bangalore. I have been learning to play the South-Indian instrument Saraswathi Veena in the Carnatic style over the last 8 years.
 
 My research interests lie in machine learning and related fields. I have worked on projects in the domains of data analytics, graph machine learning, semi-supervised learning, NLP and Music Information Retrieval. I also have experience interning at [Vogo](https://vogo.in/), [Netradyne](https://www.netradyne.com/), and Goldman Sachs. My work has mainly been in the fields of software engineering, backend engineering and data engineering. You can find my detailed CV [here](https://drive.google.com/file/d/1RGaBrnTQ00pwP5oHDzYmtUhFyzXIOIz9/view?usp=share_link).
 
