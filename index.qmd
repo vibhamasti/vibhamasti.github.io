@@ -34,7 +34,7 @@ about:
 
 :::{#vibha-masti-header}
 
-Hi there :wave:&#127997;! I'm a senior undergraduate **Computer Science and Engineering** student at PES University, Bangalore. I have been learning to play the South-Indian instrument Saraswathi Veena in the Carnatic style over the last 8 years.
+Hi there :wave:! I'm a senior undergraduate **Computer Science and Engineering** student at PES University, Bangalore. I have been learning to play the South-Indian instrument Saraswathi Veena in the Carnatic style over the last 8 years.
 
 My research interests lie in machine learning and related fields. I have worked on projects in the domains of data analytics, graph machine learning, semi-supervised learning, NLP and Music Information Retrieval. I also have experience interning at [Vogo](https://vogo.in/), [Netradyne](https://www.netradyne.com/), and Goldman Sachs. My work has mainly been in the fields of software engineering, backend engineering and data engineering. You can find my detailed CV [here](https://drive.google.com/file/d/1RGaBrnTQ00pwP5oHDzYmtUhFyzXIOIz9/view?usp=share_link).
 
@@ -50,6 +50,6 @@ I'm looking for an opportunity where I can utilize my proven academic and creati
 
 - **[12/04]** I volunteered for the ISMIR 2022 conference in Bangalore, India from 4th to 9th December 2022.
 - **[09/19]** I attended the ECML-PKDD 2022 conference in Grenoble, France from 19th to 23rd September with my teammates to present at the MLG workshop. Vlog coming soon (I hope)!
-- **[07/01]** I traveled to Mumbai with my teammates to attend the TENSYMP conference and present our paper. I made a YouTube video about the experience [here](https://www.youtube.com/watch?v=T6xu4eKhvac)!
+- **[07/01]** I traveled to Mumbai with my teammates to attend the IEEE TENSYMP conference and present our paper. I made a YouTube video about the experience [here](https://www.youtube.com/watch?v=T6xu4eKhvac)!
 - **[06/06]** I started my summer internship at Goldman Sachs.
 - **[06/03]** Made my first ever [vlog](https://www.youtube.com/watch?v=EzQwSakbJ_U&t=4s)! It's about my 6th semester of college which was (finally) in-person!
