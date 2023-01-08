@@ -21,6 +21,8 @@ page-layout: full
   - ICML 2022 - 1st Workshop on Healthcare AI and COVID-19
   - IEEE Region 10 Symposium (TENSYMP) 2022
 
+### 2021
+
 - #### [A Comparative Study of Algorithms for Intelligent Traffic Signal Control](https://arxiv.org/abs/2109.00937)
   - *Hrishit Chaudhuri, **Vibha Masti**, Vishruth Veerendranath, S Natarajan*
   - ICMLAS 2021
