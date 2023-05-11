@@ -14,10 +14,11 @@ website:
     right: This website was made with &#10084; using <a href="https://quarto.org/">Quarto</a>.
   navbar:
     right:
+      - notes.qmd
       - pubs.qmd
       # - posts.qmd
       - text: Resume
-        href: https://drive.google.com/file/d/1RGaBrnTQ00pwP5oHDzYmtUhFyzXIOIz9/view?usp=share_link
+        href: resumes/VibhaMasti_CV.pdf
         # external: true
       # - icon: envelope-fill
       #   href: mailto:vsmasti@gmail.com

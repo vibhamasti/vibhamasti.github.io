@@ -1,0 +1,82 @@
+---
+title: "UE19CS204 - Web Technologies"
+author: "Vibha Masti"
+date: "Dec 2020"
+image: wt_thumbnail.png
+course: UE19CS204
+categories: [web, javascript, html, css, frontend, ui, backend]
+---
+
+**Course instructor:** Prof. Vinay Joshi
+
+<br>
+
+
+#### Syllabus and Class Notes
+
+| Unit              | Syllabus                         |       Vibha's Notes                |
+| :---------------- | -------------------------------- | ---------------------------------- |
+| Unit 1            | - Introduction to WWW and Web protocols \
+                      - HTTP Request Response Formats \
+                      - URLs, Basic Markups & syntax \
+                      - HTML elements & attributes \
+                      - Web Form 2.0 and Form Controls \
+                      - CSS3.0-Styles and Style sheets \
+                      - Selectors, Style properties \
+                      - Box Model \
+                      - JavaScript Basics - (variables, scope and \
+                        lexical operator (fat arrow)) \
+                      - JavaScript objects   | [Web Tech Unit 1.pdf](Unit%201%20Class%20Notes.pdf) |
+| Unit 2            | - RDOM Manipulations \
+                      - Events and Event Handling in JavaScript \
+                      - XML Vs JSON \
+                      - HTML5 (New Tags, New Inputs, Elements & API) \
+                      - JQuery Introduction \
+                      - Callbacks and Promises \
+                      - Single Page Application \
+                      - Asynchronous Communication | [Web Tech Unit 2.pdf](Unit%202%20Class%20Notes.pdf) |
+| Unit 3            | - MERN Introduction \
+                      - React installation and application setup with web pack \
+                      - JSX \
+                      - React Classes and Components \
+                      - Rendering of elements \
+                      - Properties, State, Context \
+                      - Component lifecycle methods \
+                      - Refs & Keys \
+                      - Event Handling \
+                      - React Router \
+                      - Stateless components \
+                      - React Form & Controls   | [Web Tech Unit 3.pdf](Unit%203%20Class%20Notes.pdf) |
+| Unit 4            | - Understanding Node JS Architecture \
+                      - NPM Installation and Features \
+                      - Set up Node JS app \
+                      - HTTP Methods and Verbs \
+                      - Query String \
+                      - Callbacks, Buffers, Streams, File system \
+                      - MongoDB-Documents, Collections \
+                      - Reading and Writing to MongoDB, MongoDB NodeJS Driver \
+                      - Running a react application on NodeJS  | Sorry, no notes :confused: |
+| Unit 5            | - Introduction to Web services and REST APIs \
+                      - Express Installation and Server setup \
+                      - Building the application stack \
+                      - Routing, List API, Create API \
+                      - Error Handling \
+                      - Express Middleware, Express Scaffolding and Templates | Sorry, no notes :confused: |
+
+
+<br>
+
+
+#### Textbooks: 
+
+-  **T1**: "Learning PHP, MySQL & JavaScript", Robin Nixon. May 2018, 5th edition, O'Reilly Media, Inc.
+-  **T2**: "Pro MERN Stack: Full Stack Web App Development with Mongo, Express, React, and Node", by Vasan Subramanian. March 2017, Apress
+
+<br>
+
+#### Reference Books:
+
+- **R1**: "Beginning Node.js, Express & MongoDB Development", Greg Lim, July 2019
+- **R2**: "Learning React, Functional Web Development with React and Redux", Alex Banks and Eve Porcello, May 2017, O'Reilly Media, Inc.
+
+<br>

@@ -1,0 +1,82 @@
+---
+title: "UE19CS205 - Automata Formal Languages and Logic"
+author: "Vibha Masti"
+date: "Dec 2020"
+image: afll_thumbnail.png
+course: UE19CS205
+categories: [theory, automata, formal languages, logic]
+---
+
+**Course instructor:** Prof. Preet Kanwal
+
+<br>
+
+
+#### Syllabus and Class Notes
+
+| Unit              | Syllabus                         |       Vibha's Notes                |
+| :---------------- | -------------------------------- | ---------------------------------- |
+| Unit 1            | - Mathematical Preliminaries \
+                      - Basic Notations \
+                      - Deterministic Finite Acceptors (DFA)  \
+                      - Non-Deterministic Finite Acceptors (NFA) \
+                      - $\lambda$-NFA (Lambda-NFA) \
+                      - Equivalence of Deterministic and Non-deterministic \
+                        Finite Acceptors \
+                      - Reduction of the number of states in Finite Automata \
+                        (Minimization of DFA)          | [AFLL Unit 1.pdf](AFLL%20Unit%201.pdf) |
+| Unit 2            | - Regular Expressions  \
+                      - Connection between Regular Expressions Regular Languages \
+                      - Regular Grammars  \
+                      - Properties of Regular Languages \
+                      - Pumping Lemma and identifying Non–Regular Languages | [AFLL Unit 2.pdf](AFLL%20Unit%202.pdf) |
+| Unit 3            | - Context Free Grammars \
+                      - Parsing and Ambiguity \
+                      - Formal Definitions of Pushdown Automata \
+                      - Deterministic Pushdown Automata \
+                      - Non Deterministic Pushdown Automata \
+                      - Methods for Transforming Grammars \
+                      - Two important Normal Forms \
+                      - A Membership Algorithm for Context–Free Languages \
+                      - Pushdown down Automata and Context Free Languages   | [AFLL Unit 3.pdf](AFLL%20Unit%203.pdf) |
+| Unit 4            | - Properties of Context–Free Languages \
+                      - Pumping Lemma for Context–Free Languages \
+                      - The Standard Turing Machine \
+                      - Combining Turing Machine for Complicated Tasks \
+                      - Turing Thesis \
+                      - Recursive and Recursively Enumerable Languages \
+                      - Context Sensitive Grammar and Languages \
+                      - The Chomsky Hierarchy \
+                      - Some Problems that Cannot be solved by Turing Machine \
+                      - PCP \
+                      - Undecidable Problems for Recursively Enumerable Languages  | [AFLL Unit 4.pdf](AFLL%20Unit%204.pdf) |
+| Unit 5            | - Propositional Logic: A very simple logic \
+                      - Syntax \
+                      - Semantics \
+                      - A simple knowledge Base \
+                      - A simple Inference procedure \
+                      - Inferences and Proofs \
+                      - Proof by resolution \
+                      - First Order Logic: Syntax and Semantics of First \
+                        order logic \
+                      - Numbers, Sets and Lists \
+                      - Example - The electronic circuit Domain   | [AFLL Unit 5.pdf](AFLL%20Unit%205.pdf) |
+
+
+<br>
+
+
+#### Textbooks: 
+
+-  **T1**: "An Introduction to Formal Languages and Automata", Peter Linz, Jones and Bartlett, New Delhi, India, 5th Edition, 2011
+-  **T2**: "Artificial Intelligence – A Modern Approach", Stuart Russell and Peter Norvig, Pearson, 3rd Edition (Paperback), 2016
+
+<br>
+
+#### Reference Books:
+
+- **R1**: "Theory of Computation", Michael Sipser, Cengage Learning, New Delhi, India, 2008
+- **R2**: "Introduction to Automata Theory, Languages, and Computation", John E Hopcroft, Rajeev Motwani, Jeffrey D Ullman, Pearson Education, New Delhi, India, 3rd Edition, 2009
+- **R3**: "Theory of Computation: A Problem–Solving Approach", Kavi Mahesh, Wiley India, New Delhi, 2012
+
+<br>
