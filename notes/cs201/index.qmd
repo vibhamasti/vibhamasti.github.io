@@ -1,0 +1,41 @@
+---
+title: "UE19CS201 - Digital Design and Computer Organization"
+author: "Vibha Masti"
+date: "Dec 2020"
+image: ddco_thumbnail.png
+course: UE19CS201
+categories: [digital design, computer engineering, computer organization, sem3]
+---
+
+**Course instructors:** Prof. Reetinder Sidhu
+
+<br>
+
+
+#### Syllabus and Class Notes
+
+| Unit              | Syllabus                         |       Vibha's Notes                |
+| :---------------- | -------------------------------- | ---------------------------------- |
+| Unit 1            |  TBA  | [DDCO Unit 1.pdf](DDCO%20Unit%201.pdf) |
+| Unit 2            | TBA | [DDCO Unit 2.pdf](DDCO%20Unit%202.pdf) |
+| Unit 3            | TBA  | [DDCO Unit 3.pdf](DDCO%20Unit%203.pdf) |
+| Unit 4            | TBA | [DDCO Unit 4.pdf](DDCO%20Unit%204.pdf) |
+| Unit 5            | TBA | [DDCO Unit 5.pdf](DDCO%20Unit%205.pdf) |
+
+
+<br>
+
+
+<!-- #### Textbooks: 
+
+-  **T1**: "Learning PHP, MySQL & JavaScript", Robin Nixon. May 2018, 5th edition, O'Reilly Media, Inc.
+-  **T2**: "Pro MERN Stack: Full Stack Web App Development with Mongo, Express, React, and Node", by Vasan Subramanian. March 2017, Apress
+
+<br>
+
+#### Reference Books:
+
+- **R1**: "Beginning Node.js, Express & MongoDB Development", Greg Lim, July 2019
+- **R2**: "Learning React, Functional Web Development with React and Redux", Alex Banks and Eve Porcello, May 2017, O'Reilly Media, Inc.
+
+<br> -->
