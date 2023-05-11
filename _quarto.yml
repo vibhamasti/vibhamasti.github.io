@@ -6,7 +6,7 @@ project:
       port: 4088
 
 website:
-  title: "vibha masti"
+  title: "Vibha Masti"
   favicon: profile.png
   twitter-card: true
   page-footer: 

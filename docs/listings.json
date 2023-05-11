@@ -2,6 +2,7 @@
   {
     "listing": "/notes.html",
     "items": [
+      "/notes/cs203/index.html",
       "/notes/cs204/index.html",
       "/notes/cs205/index.html"
     ]

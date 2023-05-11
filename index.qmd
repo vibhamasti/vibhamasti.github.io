@@ -1,5 +1,5 @@
 ---
-title: "vibha masti"
+title: "Vibha Masti"
 # listing:
 #   contents: posts
 #   sort: "date desc"

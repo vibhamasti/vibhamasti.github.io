@@ -1,0 +1,41 @@
+---
+title: "UE19CS203 - Statistics for Data Science"
+author: "Vibha Masti"
+date: "Dec 2020"
+image: sds_thumbnail.png
+course: UE19CS203
+categories: [statistics, data science, math, analysis, data, cs, sem3]
+---
+
+**Course instructor:** Prof. Mamatha HR
+
+<br>
+
+
+#### Syllabus and Class Notes
+
+| Unit              | Syllabus                         |       Vibha's Notes                |
+| :---------------- | -------------------------------- | ---------------------------------- |
+| Unit 1            |  TBA  | [Stats Unit 1.pdf](SDS%20Unit%201.pdf) |
+| Unit 2            | TBA | [Stats Unit 2.pdf](SDS%20Unit%202.pdf) |
+| Unit 3            | TBA  | [Stats Unit 3.pdf](SDS%20Unit%203.pdf) |
+| Unit 4            | TBA | [Stats Unit 4.pdf](SDS%20Unit%204.pdf) |
+| Unit 5            | TBA | Sorry, no notes :confused: |
+
+
+<br>
+
+
+<!-- #### Textbooks: 
+
+-  **T1**: "Learning PHP, MySQL & JavaScript", Robin Nixon. May 2018, 5th edition, O'Reilly Media, Inc.
+-  **T2**: "Pro MERN Stack: Full Stack Web App Development with Mongo, Express, React, and Node", by Vasan Subramanian. March 2017, Apress
+
+<br>
+
+#### Reference Books:
+
+- **R1**: "Beginning Node.js, Express & MongoDB Development", Greg Lim, July 2019
+- **R2**: "Learning React, Functional Web Development with React and Redux", Alex Banks and Eve Porcello, May 2017, O'Reilly Media, Inc.
+
+<br> -->

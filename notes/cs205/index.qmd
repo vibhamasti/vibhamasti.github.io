@@ -4,7 +4,7 @@ author: "Vibha Masti"
 date: "Dec 2020"
 image: afll_thumbnail.png
 course: UE19CS205
-categories: [theory, automata, formal languages, logic]
+categories: [theory, automata, formal languages, logic, cs, sem3]
 ---
 
 **Course instructor:** Prof. Preet Kanwal

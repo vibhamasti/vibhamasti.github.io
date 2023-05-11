@@ -4,19 +4,19 @@
     "href": "notes.html",
     "title": "Vibha’s Notes",
     "section": "",
-    "text": "UE19CS204 - Web Technologies\n\n\n\n\n\n\n\nweb\n\n\njavascript\n\n\nhtml\n\n\ncss\n\n\nfrontend\n\n\nui\n\n\nbackend\n\n\n\n\n\n\n\n\n\n\n\nDec 1, 2020\n\n\nVibha Masti\n\n\n\n\n\n\n  \n\n\n\n\nUE19CS205 - Automata Formal Languages and Logic\n\n\n\n\n\n\n\ntheory\n\n\nautomata\n\n\nformal languages\n\n\nlogic\n\n\n\n\n\n\n\n\n\n\n\nDec 1, 2020\n\n\nVibha Masti\n\n\n\n\n\n\nNo matching items"
+    "text": "UE19CS203 - Statistics for Data Science\n\n\n\n\n\n\n\nstatistics\n\n\ndata science\n\n\nmath\n\n\nanalysis\n\n\ndata\n\n\ncs\n\n\nsem3\n\n\n\n\n\n\n\n\n\n\n\nDec 1, 2020\n\n\nVibha Masti\n\n\n\n\n\n\n  \n\n\n\n\nUE19CS204 - Web Technologies\n\n\n\n\n\n\n\nweb\n\n\njavascript\n\n\nhtml\n\n\ncss\n\n\nfrontend\n\n\nui\n\n\nbackend\n\n\ncs\n\n\nsem3\n\n\n\n\n\n\n\n\n\n\n\nDec 1, 2020\n\n\nVibha Masti\n\n\n\n\n\n\n  \n\n\n\n\nUE19CS205 - Automata Formal Languages and Logic\n\n\n\n\n\n\n\ntheory\n\n\nautomata\n\n\nformal languages\n\n\nlogic\n\n\ncs\n\n\nsem3\n\n\n\n\n\n\n\n\n\n\n\nDec 1, 2020\n\n\nVibha Masti\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "vibha masti",
+    "title": "Vibha Masti",
     "section": "",
     "text": "personal mail\n  \n  \n    \n     college mail\n  \n  \n    \n     linkedin\n  \n  \n    \n     youtube\n  \n  \n    \n     github\n  \n\n  \n  \nHi there 👋! I’m a senior undergraduate Computer Science and Engineering student at PES University, Bangalore. I am currently interning at Apple as a Machine Learning Engnieer.\nMy research interests lie in machine learning, natural language processing, and related fields. I have experience interning at Apple, Goldman Sachs, Netradyne, and Vogo. I have also worked on research projects in NLP, ML, Graph ML, Music IR, etc. You can find my detailed CV here.\nI enjoy making concise, pictorial and aesthetically-pleasing lecture notes that my peers at college have been using to study since my first year (~38,000+ hits to the link). This really helped my juniors and peers during the pandemic as it was very difficult for everyone to keep up with all the online classes during such difficult times.\nI learn to play the South-Indian instrument Saraswathi Veena in the Carnatic style. I also enjoy making YouTube videos about my experiences and interests. I have made videos about my college life, academic conferences, and more. You can find my YouTube channel here."
   },
   {
     "objectID": "index.html#news",
     "href": "index.html#news",
-    "title": "vibha masti",
+    "title": "Vibha Masti",
     "section": "News",
     "text": "News\n\n2023\n\n[01/09] 💻 I started my 6-month spring internship/co-op at Apple! I am so excited for this experience and unbelievably grateful.\n\n\n\n2022\n\n[12/04] 🎶 I volunteered for the ISMIR 2022 conference in Bangalore, India from 4th to 9th December 2022.\n[09/19] ✈️ I attended the ECML-PKDD 2022 conference in Grenoble, France from 19th to 23rd September with my teammates to present at the MLG workshop. I made a vlog about it here.\n[07/01] ✈️ I traveled to Mumbai with my teammates to attend the IEEE TENSYMP conference and present our paper. I made a YouTube video about the experience here!\n[06/06] 💻 I started my summer internship at Goldman Sachs.\n[06/03] 🎬 Made my first ever vlog! It’s about my 6th semester of college which was (finally) in-person!"
   },
@@ -40,5 +40,12 @@
     "title": "UE19CS204 - Web Technologies",
     "section": "",
     "text": "Course instructor: Prof. Vinay Joshi\n\n\nSyllabus and Class Notes\n\n\n\nUnit\nSyllabus\nVibha’s Notes\n\n\n\n\nUnit 1\n- Introduction to WWW and Web protocols\n- HTTP Request Response Formats\n- URLs, Basic Markups & syntax\n- HTML elements & attributes\n- Web Form 2.0 and Form Controls\n- CSS3.0-Styles and Style sheets\n- Selectors, Style properties\n- Box Model\n- JavaScript Basics - (variables, scope and\nlexical operator (fat arrow))\n- JavaScript objects\nWeb Tech Unit 1.pdf\n\n\nUnit 2\n- RDOM Manipulations\n- Events and Event Handling in JavaScript\n- XML Vs JSON\n- HTML5 (New Tags, New Inputs, Elements & API)\n- JQuery Introduction\n- Callbacks and Promises\n- Single Page Application\n- Asynchronous Communication\nWeb Tech Unit 2.pdf\n\n\nUnit 3\n- MERN Introduction\n- React installation and application setup with web pack\n- JSX\n- React Classes and Components\n- Rendering of elements\n- Properties, State, Context\n- Component lifecycle methods\n- Refs & Keys\n- Event Handling\n- React Router\n- Stateless components\n- React Form & Controls\nWeb Tech Unit 3.pdf\n\n\nUnit 4\n- Understanding Node JS Architecture\n- NPM Installation and Features\n- Set up Node JS app\n- HTTP Methods and Verbs\n- Query String\n- Callbacks, Buffers, Streams, File system\n- MongoDB-Documents, Collections\n- Reading and Writing to MongoDB, MongoDB NodeJS Driver\n- Running a react application on NodeJS\nSorry, no notes 😕\n\n\nUnit 5\n- Introduction to Web services and REST APIs\n- Express Installation and Server setup\n- Building the application stack\n- Routing, List API, Create API\n- Error Handling\n- Express Middleware, Express Scaffolding and Templates\nSorry, no notes 😕\n\n\n\n\n\n\nTextbooks:\n\nT1: “Learning PHP, MySQL & JavaScript”, Robin Nixon. May 2018, 5th edition, O’Reilly Media, Inc.\nT2: “Pro MERN Stack: Full Stack Web App Development with Mongo, Express, React, and Node”, by Vasan Subramanian. March 2017, Apress\n\n\n\n\nReference Books:\n\nR1: “Beginning Node.js, Express & MongoDB Development”, Greg Lim, July 2019\nR2: “Learning React, Functional Web Development with React and Redux”, Alex Banks and Eve Porcello, May 2017, O’Reilly Media, Inc."
+  },
+  {
+    "objectID": "notes/cs203/index.html",
+    "href": "notes/cs203/index.html",
+    "title": "UE19CS203 - Statistics for Data Science",
+    "section": "",
+    "text": "Course instructor: Prof. Mamatha HR\n\n\nSyllabus and Class Notes\n\n\n\nUnit\nSyllabus\nVibha’s Notes\n\n\n\n\nUnit 1\nTBA\nStats Unit 1.pdf\n\n\nUnit 2\nTBA\nStats Unit 2.pdf\n\n\nUnit 3\nTBA\nStats Unit 3.pdf\n\n\nUnit 4\nTBA\nStats Unit 4.pdf\n\n\nUnit 5\nTBA\nSorry, no notes 😕"
   }
 ]

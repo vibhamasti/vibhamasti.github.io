@@ -4,7 +4,7 @@ author: "Vibha Masti"
 date: "Dec 2020"
 image: wt_thumbnail.png
 course: UE19CS204
-categories: [web, javascript, html, css, frontend, ui, backend]
+categories: [web, javascript, html, css, frontend, ui, backend, cs, sem3]
 ---
 
 **Course instructor:** Prof. Vinay Joshi
