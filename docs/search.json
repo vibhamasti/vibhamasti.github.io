@@ -4,7 +4,7 @@
     "href": "notes.html",
     "title": "Vibha’s Notes",
     "section": "",
-    "text": "UE19CS203 - Statistics for Data Science\n\n\n\n\n\n\n\nstatistics\n\n\ndata science\n\n\nmath\n\n\nanalysis\n\n\ndata\n\n\ncs\n\n\nsem3\n\n\n\n\n\n\n\n\n\n\n\nDec 1, 2020\n\n\nVibha Masti\n\n\n\n\n\n\n  \n\n\n\n\nUE19CS204 - Web Technologies\n\n\n\n\n\n\n\nweb\n\n\njavascript\n\n\nhtml\n\n\ncss\n\n\nfrontend\n\n\nui\n\n\nbackend\n\n\ncs\n\n\nsem3\n\n\n\n\n\n\n\n\n\n\n\nDec 1, 2020\n\n\nVibha Masti\n\n\n\n\n\n\n  \n\n\n\n\nUE19CS205 - Automata Formal Languages and Logic\n\n\n\n\n\n\n\ntheory\n\n\nautomata\n\n\nformal languages\n\n\nlogic\n\n\ncs\n\n\nsem3\n\n\n\n\n\n\n\n\n\n\n\nDec 1, 2020\n\n\nVibha Masti\n\n\n\n\n\n\nNo matching items"
+    "text": "UE19CS202 - Data Structures and their Applications\n\n\n\n\n\n\n\nalgorithms\n\n\ndata structures\n\n\ndsa\n\n\nc/c++\n\n\nsem3\n\n\n\n\n\n\n\n\n\n\n\nDec 1, 2020\n\n\nVibha Masti\n\n\n\n\n\n\n  \n\n\n\n\nUE19CS203 - Statistics for Data Science\n\n\n\n\n\n\n\nstatistics\n\n\ndata science\n\n\nmath\n\n\nanalysis\n\n\ndata\n\n\ncs\n\n\nsem3\n\n\n\n\n\n\n\n\n\n\n\nDec 1, 2020\n\n\nVibha Masti\n\n\n\n\n\n\n  \n\n\n\n\nUE19CS204 - Web Technologies\n\n\n\n\n\n\n\nweb\n\n\njavascript\n\n\nhtml\n\n\ncss\n\n\nfrontend\n\n\nui\n\n\nbackend\n\n\ncs\n\n\nsem3\n\n\n\n\n\n\n\n\n\n\n\nDec 1, 2020\n\n\nVibha Masti\n\n\n\n\n\n\n  \n\n\n\n\nUE19CS205 - Automata Formal Languages and Logic\n\n\n\n\n\n\n\ntheory\n\n\nautomata\n\n\nformal languages\n\n\nlogic\n\n\ncs\n\n\nsem3\n\n\n\n\n\n\n\n\n\n\n\nDec 1, 2020\n\n\nVibha Masti\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
@@ -26,6 +26,13 @@
     "title": "Publications",
     "section": "",
     "text": "2022\n\nC3PO: A Lightweight Copying Mechanism for Translating Pseudocode to Code\n\nVishruth Veerendranath, Vibha Masti, Prajwal Anagani, Mamatha HR\nAACL-IJCNLP 2022 - Student Research Workshop\n\nGraphCoReg: Co-Training for Regression on Temporal Graphs\n\nHarshith Mohan Kumar, Vishruth Veerendranath, Vibha Masti, Divya Shekar, Bhaskarjyoti Das\nECML-PKDD 2022 - International Workshop on Mining and Learning with Graphs\n Student Best Paper Award  🏆\n\nMultivariate Covid-19 Forecasting with Vaccinations as a factor: the case of India and USA\n\nVibha Masti, Vishruth Veerendranath, Harshith Mohan Kumar\nICML 2022 - 1st Workshop on Healthcare AI and COVID-19\nIEEE Region 10 Symposium (TENSYMP) 2022\n\n\n\n\n2021\n\nA Comparative Study of Algorithms for Intelligent Traffic Signal Control\n\nHrishit Chaudhuri, Vibha Masti, Vishruth Veerendranath, S Natarajan\nICMLAS 2021"
+  },
+  {
+    "objectID": "notes/cs202/index.html",
+    "href": "notes/cs202/index.html",
+    "title": "UE19CS202 - Data Structures and their Applications",
+    "section": "",
+    "text": "Course instructors: Prof. Shylaja SS, Prof. Badri Prasad\n\n\nSyllabus and Class Notes\n\n\n\nUnit\nSyllabus\nVibha’s Notes\n\n\n\n\nUnit 1\nTBA\nReview of C.pdf\n\n\nUnit 2\nTBA\nSorry, no notes 😕\n\n\nUnit 3\nTBA\nTrees and Heaps.pdf\n\n\nUnit 4\nTBA\nGraphs.pdf\nBalanced Trees.pdf\n\n\nUnit 5\nTBA\nTries and Hashing.pdf"
   },
   {
     "objectID": "notes/cs205/index.html",

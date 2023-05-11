@@ -1,0 +1,42 @@
+---
+title: "UE19CS202 - Data Structures and their Applications"
+author: "Vibha Masti"
+date: "Dec 2020"
+image: dsa_thumbnail.png
+course: UE19CS202
+categories: [algorithms, data structures, dsa, c/c++, sem3]
+---
+
+**Course instructors:** Prof. Shylaja SS, Prof. Badri Prasad
+
+<br>
+
+
+#### Syllabus and Class Notes
+
+| Unit              | Syllabus                         |       Vibha's Notes                |
+| :---------------- | -------------------------------- | ---------------------------------- |
+| Unit 1            |  TBA  | [Review of C.pdf](Review%20of%20C.pdf) |
+| Unit 2            | TBA | Sorry, no notes :confused: |
+| Unit 3            | TBA  | [Trees and Heaps.pdf](Trees%20%26%20Heaps%20-%20Class%20Notes.pdf) |
+| Unit 4            | TBA | [Graphs.pdf](DSA%20Unit%204%20-%20Graphs.pdf)  \
+                        [Balanced Trees.pdf](Balanced%20Trees.pdf) |
+| Unit 5            | TBA | [Tries and Hashing.pdf](05%20-%20Tries%20%26%20Hashing.pdf) |
+
+
+<br>
+
+
+<!-- #### Textbooks: 
+
+-  **T1**: "Learning PHP, MySQL & JavaScript", Robin Nixon. May 2018, 5th edition, O'Reilly Media, Inc.
+-  **T2**: "Pro MERN Stack: Full Stack Web App Development with Mongo, Express, React, and Node", by Vasan Subramanian. March 2017, Apress
+
+<br>
+
+#### Reference Books:
+
+- **R1**: "Beginning Node.js, Express & MongoDB Development", Greg Lim, July 2019
+- **R2**: "Learning React, Functional Web Development with React and Redux", Alex Banks and Eve Porcello, May 2017, O'Reilly Media, Inc.
+
+<br> -->
