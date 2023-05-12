@@ -1,0 +1,51 @@
+---
+title: "UE19CS303 - Machine Intelligence"
+author: "Vibha Masti"
+date: "Dec 2021"
+image: mi_thumbnail.png
+course: UE19CS303
+categories: [machine learning, artificial intelligence, cs, sem5]
+---
+
+**Course instructors:** Prof. Preet Kanwal, Prof. Preethi P
+
+<br>
+
+
+#### Syllabus and Class Notes
+
+| Unit              | Syllabus                         |       Vibha's Notes                |
+| :---------------- | -------------------------------- | ---------------------------------- |
+| Unit 1            |  TBA  | [MI Unit 1.pdf](MI%20Unit%201.pdf) |
+| Unit 2            | TBA | [MI Unit 2.pdf](MI%20Unit%202.pdf) |
+| Unit 3            | TBA  | [Bayesian Learning.pdf](Bayesian%20Learning.pdf) \
+                             [Hidden Markov Models.pdf](HMM.pdf) \
+                             [Ensemble Models.pdf](Ensemble%20Models.pdf) |
+| Unit 4            | TBA | [Expectation Maximization.pdf](EM.pdf) \
+                            [Dimensionality Reduction.pdf](Dimensionality%20Reduction.pdf) \
+                            [Clustering.pdf](Clustering.pdf) \
+                            [Genetic Algorithms.pdf](Genetic%20Algorithms.pdf) \
+                            [Particle Swarm Optimization.pdf](PSO.pdf) |
+| Unit 5            | TBA | [Convolutional Neural Networks.pdf](CNNs.pdf) \
+                            [LSTM and GRU.pdf](LSTM%20and%20GRU.pdf) \
+                            [Optimizers.pdf](Optimizers.pdf) \
+                            [Regularization.pdf](Regularization.pdf) \
+                            [Recurrent Neural Networks.pdf](RNNs.pdf) |
+
+
+<br>
+
+
+<!-- #### Textbooks: 
+
+-  **T1**: "Learning PHP, MySQL & JavaScript", Robin Nixon. May 2018, 5th edition, O'Reilly Media, Inc.
+-  **T2**: "Pro MERN Stack: Full Stack Web App Development with Mongo, Express, React, and Node", by Vasan Subramanian. March 2017, Apress
+
+<br>
+
+#### Reference Books:
+
+- **R1**: "Beginning Node.js, Express & MongoDB Development", Greg Lim, July 2019
+- **R2**: "Learning React, Functional Web Development with React and Redux", Alex Banks and Eve Porcello, May 2017, O'Reilly Media, Inc.
+
+<br> -->

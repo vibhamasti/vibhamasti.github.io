@@ -4,8 +4,8 @@ listing:
   contents: notes
   sort: 
     - "date desc"
-    - "title"
-  type: grid
+    - "title desc"
+  type: default
   categories: true
   sort-ui: false
   filter-ui: false
