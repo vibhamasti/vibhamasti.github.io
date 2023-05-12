@@ -4,7 +4,7 @@ author: "Vibha Masti"
 date: "Dec 2020"
 image: sds_thumbnail.png
 course: UE19CS203
-categories: [statistics, data science, math, analysis, data, cs, sem3]
+categories: [statistics, data science, math, cs, sem3]
 ---
 
 **Course instructor:** Prof. Mamatha HR

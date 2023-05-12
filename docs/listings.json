@@ -2,13 +2,17 @@
   {
     "listing": "/notes.html",
     "items": [
-      "/notes/cs252/index.html",
+      "/notes/cs301/index.html",
       "/notes/cs251/index.html",
-      "/notes/cs205/index.html",
-      "/notes/cs204/index.html",
-      "/notes/cs203/index.html",
+      "/notes/cs252/index.html",
+      "/notes/cs253/index.html",
+      "/notes/cs254/index.html",
+      "/notes/ma251/index.html",
+      "/notes/cs201/index.html",
       "/notes/cs202/index.html",
-      "/notes/cs201/index.html"
+      "/notes/cs203/index.html",
+      "/notes/cs204/index.html",
+      "/notes/cs205/index.html"
     ]
   }
 ]

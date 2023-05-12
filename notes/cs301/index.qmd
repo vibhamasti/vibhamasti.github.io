@@ -1,0 +1,41 @@
+---
+title: "UE19CS301 - Database Management System"
+author: "Vibha Masti"
+date: "Dec 2021"
+image: dbms_thumbnail.png
+course: UE19CS301
+categories: [dbms, sql, cs, sem5]
+---
+
+**Course instructor:** Prof. Mahitha G
+
+<br>
+
+
+#### Syllabus and Class Notes
+
+| Unit              | Syllabus                         |       Vibha's Notes                |
+| :---------------- | -------------------------------- | ---------------------------------- |
+| Unit 1            |  TBA  | [DBMS Unit 1.pdf](DBMS%20Unit%201.pdf) |
+| Unit 2            | TBA | [DBMS Unit 2.pdf](DBMS%20Unit%202.pdf) |
+| Unit 3            | TBA  | [DBMS Unit 3.pdf](DBMS%20Unit%203.pdf) |
+| Unit 4            | TBA | [DBMS Unit 4.pdf](DBMS%20Unit%204.pdf) |
+| Unit 5            | TBA | [DBMS Unit 5.pdf](DBMS%20Unit%205.pdf) |
+
+
+<br>
+
+
+<!-- #### Textbooks: 
+
+-  **T1**: "Learning PHP, MySQL & JavaScript", Robin Nixon. May 2018, 5th edition, O'Reilly Media, Inc.
+-  **T2**: "Pro MERN Stack: Full Stack Web App Development with Mongo, Express, React, and Node", by Vasan Subramanian. March 2017, Apress
+
+<br>
+
+#### Reference Books:
+
+- **R1**: "Beginning Node.js, Express & MongoDB Development", Greg Lim, July 2019
+- **R2**: "Learning React, Functional Web Development with React and Redux", Alex Banks and Eve Porcello, May 2017, O'Reilly Media, Inc.
+
+<br> -->

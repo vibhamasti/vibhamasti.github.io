@@ -1,13 +1,13 @@
 ---
 title: "UE19CS252 - Microprocessor and Computer Architecture"
 author: "Vibha Masti"
-date: "Jan 2021"
+date: "May 2021"
 image: mpca_thumbnail.png
 course: UE19CS252
-categories: [microprocessor, computer architecture, sem4]
+categories: [microprocessor, computer architecture, cs, sem4]
 ---
 
-**Course instructors:** Prof. Jayashree R
+**Course instructor:** Prof. Jayashree R
 
 <br>
 

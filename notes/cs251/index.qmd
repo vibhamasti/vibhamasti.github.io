@@ -1,13 +1,13 @@
 ---
 title: "UE19CS251 - Design and Analysis of Algorithms"
 author: "Vibha Masti"
-date: "Jan 2021"
+date: "May 2021"
 image: daa_thumbnail.png
 course: UE19CS251
-categories: [algorithms, data structures, c/c++, sem4]
+categories: [algorithms, data structures, cs, sem4]
 ---
 
-**Course instructors:** Prof. Shylaja SS
+**Course instructor:** Prof. Shylaja SS
 
 <br>
 

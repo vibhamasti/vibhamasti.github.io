@@ -2,8 +2,10 @@
 title: "Vibha's Notes"
 listing:
   contents: notes
-  sort: "title desc"
-  type: default
+  sort: 
+    - "date desc"
+    - "title"
+  type: grid
   categories: true
   sort-ui: false
   filter-ui: false
