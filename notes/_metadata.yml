@@ -8,6 +8,6 @@ freeze: true
 title-block-banner: true
 
 
-comments: 
-  utterances:
-    repo: vibhamasti/notes-comments
+# comments: 
+#   utterances:
+#     repo: vibhamasti/notes-comments

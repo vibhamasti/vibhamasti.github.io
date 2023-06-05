@@ -16,26 +16,47 @@ categories: [digital design, computer organization, cs, sem3]
 
 | Unit              | Syllabus                         |       Vibha's Notes                |
 | :---------------- | -------------------------------- | ---------------------------------- |
-| Unit 1            |  TBA  | [DDCO Unit 1.pdf](DDCO%20Unit%201.pdf) |
-| Unit 2            | TBA | [DDCO Unit 2.pdf](DDCO%20Unit%202.pdf) |
-| Unit 3            | TBA  | [DDCO Unit 3.pdf](DDCO%20Unit%203.pdf) |
-| Unit 4            | TBA | [DDCO Unit 4.pdf](DDCO%20Unit%204.pdf) |
-| Unit 5            | TBA | [DDCO Unit 5.pdf](DDCO%20Unit%205.pdf) |
+| Unit 1            |  - Introduction \
+                       - Boolean Functions \
+                       - Truth tables \
+                       - Boolean Algebra \
+                       - Identities \
+                       - Logic minimization \
+                       - K- Maps \
+                       - Adder/Subtractor, Overflow  | [DDCO Unit 1.pdf](DDCO%20Unit%201.pdf) |
+| Unit 2            | - Muxes, Decoders, Shifters \
+                      - Gate/Wire delays, Timing \
+                      - Latches, Flip-flops \
+                      - Synchronous logic design \
+                      - Finite State Machines| [DDCO Unit 2.pdf](DDCO%20Unit%202.pdf) |
+| Unit 3            | - FSM examples \
+                      - Counters, Memory array \
+                      - Carry-lookahead and Prefix adders | [DDCO Unit 3.pdf](DDCO%20Unit%203.pdf) |
+| Unit 4            | - Shift/add multiplier/divider \
+                      - Wallace tree multiplier \
+                      - Floating point \
+                      - Assembly Language, Machine Language | [DDCO Unit 4.pdf](DDCO%20Unit%204.pdf) |
+| Unit 5            | - Addressing Modes \
+                      - Performance analysis \
+                      - Single-cycle, Multi-cycle processor datapath and control \
+                      - Systolic array matrix multiply \
+                      - Overview of computer systems organization | [DDCO Unit 5.pdf](DDCO%20Unit%205.pdf) |
 
 
 <br>
 
 
-<!-- #### Textbooks: 
+#### Textbooks: 
 
--  **T1**: "Learning PHP, MySQL & JavaScript", Robin Nixon. May 2018, 5th edition, O'Reilly Media, Inc.
--  **T2**: "Pro MERN Stack: Full Stack Web App Development with Mongo, Express, React, and Node", by Vasan Subramanian. March 2017, Apress
+-  **T1**: "Digital Design and Computer Architecture", David Money Harris, Sarah L Harris, 2nd Edition, Morgan Kaufmann, 2012
+
 
 <br>
 
 #### Reference Books:
 
-- **R1**: "Beginning Node.js, Express & MongoDB Development", Greg Lim, July 2019
-- **R2**: "Learning React, Functional Web Development with React and Redux", Alex Banks and Eve Porcello, May 2017, O'Reilly Media, Inc.
+- **R1**: "Digital Design", M Morris Mano, Michael D Ciletti, 6th Edition, Pearson, 2018
+- **R2**: "Computer Organization and Design", David A Patterson, John L Hennessey, 5th Edition, Elsevier, 2016
+- **R3**: "Computer Organization and Design", Carl Hamacher, Safwat Zaky, Zvonko Vranesic, 5th Edition, Tata McGraw-Hill, 2011
 
-<br> -->
+<br>
