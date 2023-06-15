@@ -34,7 +34,7 @@ about:
 
 :::{#vibha-masti-header}
 
-Hi there :wave:! I'm a senior undergraduate Computer Science and Engineering student at PES University, Bangalore. I am currently interning at Apple as a Machine Learning Engnieer.
+Hi there :wave:! I am currently interning at Apple as a Machine Learning Engineer. I did my Bachelor's degree in Computer Science and Engineering at PES University, Bangalore. I am pursuing my Master's degree in Computational Data Science at Carnegie Mellon University.
 
 My research interests lie in machine learning, natural language processing, and related fields. I have experience interning at Apple, Goldman Sachs, [Netradyne](https://www.netradyne.com/), and [Vogo](https://vogo.in/). I have also worked on research projects in NLP, ML, Graph ML, Music IR, etc. You can find my detailed CV [here](resumes/VibhaMasti_CV.pdf).
 
