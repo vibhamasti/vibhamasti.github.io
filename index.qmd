@@ -20,16 +20,16 @@ about:
       href: mailto:vsmasti@gmail.com
     - icon: envelope-fill
       text: college mail
-      href: mailto:vibha@pesu.pes.edu
+      href: mailto:vmasti@andrew.cmu.edu
     - icon: linkedin
       text: linkedin
       href: https://www.linkedin.com/in/vibha-masti/
     - icon: youtube
       text: youtube
       href: https://www.youtube.com/@VibhaMasti
-    - icon: github
-      text: github
-      href: https://github.com/vibhamasti
+    # - icon: github
+    #   text: github
+    #   href: https://github.com/vibhamasti
 ---
 
 :::{#vibha-masti-header}

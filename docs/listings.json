@@ -2,6 +2,10 @@
   {
     "listing": "/notes.html",
     "items": [
+      "/notes/cs352/index.html",
+      "/notes/cs351/index.html",
+      "/notes/cs345/index.html",
+      "/notes/cs334/index.html",
       "/notes/cs322/index.html",
       "/notes/cs310/index.html",
       "/notes/cs303/index.html",
