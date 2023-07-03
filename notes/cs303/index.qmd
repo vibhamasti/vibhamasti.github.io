@@ -4,7 +4,7 @@ author: "Vibha Masti"
 date: "Dec 2021"
 image: mi_thumbnail.png
 course: UE19CS303
-categories: [machine learning, artificial intelligence, cs, sem5]
+categories: [ml, cs, sem5]
 ---
 
 **Course instructors:** Prof. Preet Kanwal, Prof. Preethi P

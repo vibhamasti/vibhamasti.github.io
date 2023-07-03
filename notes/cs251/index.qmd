@@ -4,7 +4,7 @@ author: "Vibha Masti"
 date: "May 2021"
 image: daa_thumbnail.png
 course: UE19CS251
-categories: [algorithms, data structures, cs, sem4]
+categories: [algorithms, cs, sem4]
 ---
 
 **Course instructor:** Prof. Shylaja SS

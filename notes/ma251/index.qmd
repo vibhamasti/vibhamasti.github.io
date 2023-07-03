@@ -4,7 +4,7 @@ author: "Vibha Masti"
 date: "May 2021"
 image: la_thumbnail.png
 course: UE19MA251
-categories: [linear algebra, math, sem4]
+categories: [ml, math, sem4]
 ---
 
 **Course instructor:** Prof. Jyothi R

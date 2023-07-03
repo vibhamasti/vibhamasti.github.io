@@ -4,7 +4,7 @@ author: "Vibha Masti"
 date: "May 2021"
 image: mpca_thumbnail.png
 course: UE19CS252
-categories: [microprocessor, computer architecture, cs, sem4]
+categories: [systems, cs, sem4]
 ---
 
 **Course instructor:** Prof. Jayashree R

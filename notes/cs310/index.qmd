@@ -4,7 +4,7 @@ author: "Vibha Masti"
 date: "Dec 2021"
 image: da_thumbnail.png
 course: UE19CS310
-categories: [machine learning, data science, statistics, cs, sem5]
+categories: [ml, cs, sem5]
 ---
 
 **Course instructors:** Prof. Gowri Srinivasa

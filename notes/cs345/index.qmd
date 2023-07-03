@@ -4,7 +4,7 @@ author: "Vibha Masti"
 date: "May 2022"
 image: nam_thumbnail.png
 course: UE19CS345
-categories: [social networks, graphs, ml, sem6]
+categories: [ml, cs, sem6]
 ---
 
 **Course instructors:** Prof. Bhaskarjyoti Das

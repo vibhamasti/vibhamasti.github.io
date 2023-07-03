@@ -4,7 +4,7 @@ author: "Vibha Masti"
 date: "May 2022"
 image: nlp_thumbnail.png
 course: UE19CS334
-categories: [nlp, ml, sem6]
+categories: [ml, cs, sem6]
 ---
 
 **Course instructors:** Prof. Mamatha H. R.

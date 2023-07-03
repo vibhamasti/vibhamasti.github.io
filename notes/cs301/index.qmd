@@ -4,7 +4,7 @@ author: "Vibha Masti"
 date: "Dec 2021"
 image: dbms_thumbnail.png
 course: UE19CS301
-categories: [dbms, sql, cs, sem5]
+categories: [systems, cs, sem5]
 ---
 
 **Course instructor:** Prof. Mahitha G

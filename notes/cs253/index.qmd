@@ -4,7 +4,7 @@ author: "Vibha Masti"
 date: "May 2021"
 image: cn_thumbnail.png
 course: UE19CS253
-categories: [networks, cs, sem4]
+categories: [systems, cs, sem4]
 ---
 
 **Course instructor:** Prof. Sivaraman Eswaran

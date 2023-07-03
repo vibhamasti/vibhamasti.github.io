@@ -4,7 +4,7 @@ author: "Vibha Masti"
 date: "May 2021"
 image: os_thumbnail.png
 course: UE19CS254
-categories: [os, systems, cs, sem4]
+categories: [systems, cs, sem4]
 ---
 
 **Course instructor:** Prof. Chandravva Hebbi

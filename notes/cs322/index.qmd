@@ -4,7 +4,7 @@ author: "Vibha Masti"
 date: "Dec 2021"
 image: bd_thumbnail.png
 course: UE19CS322
-categories: [big data, systems, cs, sem5]
+categories: [ml, systems, cs, sem5]
 ---
 
 **Course instructors:** Prof. K. V. Subramaniam

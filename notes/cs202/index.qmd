@@ -4,7 +4,7 @@ author: "Vibha Masti"
 date: "Dec 2020"
 image: dsa_thumbnail.png
 course: UE19CS202
-categories: [algorithms, data structures, cs, sem3]
+categories: [algorithms, cs, sem3]
 ---
 
 **Course instructors:** Prof. Shylaja SS, Prof. Badri Prasad

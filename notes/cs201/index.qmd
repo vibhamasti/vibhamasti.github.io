@@ -4,7 +4,7 @@ author: "Vibha Masti"
 date: "Dec 2020"
 image: ddco_thumbnail.png
 course: UE19CS201
-categories: [digital design, computer organization, cs, sem3]
+categories: [systems, cs, sem3]
 ---
 
 **Course instructor:** Prof. Reetinder Sidhu

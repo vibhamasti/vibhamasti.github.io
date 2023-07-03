@@ -4,7 +4,7 @@ author: "Vibha Masti"
 date: "May 2022"
 image: cd_thumbnail.png
 course: UE19CS351
-categories: [compiler, systems, sem6]
+categories: [systems, cs, sem6]
 ---
 
 **Course instructors:** Prof. Preet Kanwal
