@@ -34,11 +34,11 @@ about:
 
 :::{#vibha-masti-header}
 
-Hi there :wave:! I am currently interning at Apple as a Machine Learning Engineer. I did my Bachelor's degree in Computer Science and Engineering at PES University, Bangalore. I am pursuing my Master's degree in Computational Data Science at Carnegie Mellon University.
+Hi there :wave:! I am a Master's student at the Language Technologies Institute of Carnegie Mellon University. I did my Bachelor's degree in Computer Science and Engineering at PES University, Bangalore.
 
-My research interests lie in machine learning, natural language processing, and related fields. I have experience interning at Apple, Goldman Sachs, [Netradyne](https://www.netradyne.com/), and [Vogo](https://vogo.in/). I have also worked on research projects in NLP, ML, Graph ML, Music IR, etc. You can find my detailed CV [here](resumes/VibhaMasti_CV.pdf).
+My research interests lie in machine learning and NLP. I have experience working at Apple, Goldman Sachs, Netradyne, and Vogo. I have also published some of my research work. You can find my detailed CV [here](resumes/VibhaMasti_CV.pdf).
 
-I enjoy making concise, pictorial and aesthetically-pleasing lecture notes that my peers at college have been using to study since my first year (~38,000+ hits to the [link](https://bit.ly/pesu-btech-resources)). This really helped my juniors and peers during the pandemic as it was very difficult for everyone to keep up with all the online classes during such difficult times. 
+I enjoy making pictorial and aesthetically-pleasing lecture notes that my peers at college have been using to study. You can check out my notes [here](notes.qmd).
 
 I learn to play the South-Indian instrument Saraswathi Veena in the Carnatic style. I also enjoy making YouTube videos about my experiences and interests. I have made videos about my college life, academic conferences, and more. You can find my YouTube channel [here](https://www.youtube.com/@VibhaMasti).
 
@@ -48,13 +48,13 @@ I learn to play the South-Indian instrument Saraswathi Veena in the Carnatic sty
 
 ### 2023
 
-- **[01/09]** :computer: I started my 6-month spring internship/co-op at Apple! I am so excited for this experience and unbelievably grateful.
+- **[01/09]** I started my 6-month spring internship/co-op at Apple! I am so excited for this experience and unbelievably grateful.
 
 ### 2022
 
-- **[12/04]** :notes: I volunteered for the ISMIR 2022 conference in Bangalore, India from 4th to 9th December 2022.
-- **[09/19]** :airplane: I attended the ECML-PKDD 2022 conference in Grenoble, France from 19th to 23rd September with my teammates to present at the MLG workshop. I made a vlog about it [here](https://youtu.be/l-xS1BjREHs).
-- **[07/01]** :airplane: I traveled to Mumbai with my teammates to attend the IEEE TENSYMP conference and present our paper. I made a YouTube video about the experience [here](https://www.youtube.com/watch?v=T6xu4eKhvac)!
-- **[06/06]** :computer: I started my summer internship at Goldman Sachs.
-- **[06/03]** :clapper: Made my first ever [vlog](https://www.youtube.com/watch?v=EzQwSakbJ_U&t=4s)! It's about my 6th semester of college which was (finally) in-person!
+- **[12/04]** I volunteered for the ISMIR 2022 conference in Bangalore, India from 4th to 9th December 2022.
+- **[09/19]** I attended the ECML-PKDD 2022 conference in Grenoble, France with my teammates to present at the MLG workshop. Check out my [vlog](https://youtu.be/l-xS1BjREHs) on it!
+- **[07/01]** I traveled to Mumbai with my teammates to attend the IEEE TENSYMP conference and present our paper. I made a [YouTube video](https://www.youtube.com/watch?v=T6xu4eKhvac) about the experience!
+- **[06/06]** I started my summer internship at Goldman Sachs.
+- **[06/03]** Made my first ever [vlog](https://www.youtube.com/watch?v=EzQwSakbJ_U&t=4s)! It's about my 6th semester of college which was (finally) in-person!
 

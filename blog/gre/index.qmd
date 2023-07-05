@@ -1,0 +1,9 @@
+---
+title: "How I Prepared for the GRE"
+author: "Vibha Masti"
+date: "Jul 2023"
+desc: My GRE study process
+# image: ddco_thumbnail.png
+categories: [grad apps]
+---
+
