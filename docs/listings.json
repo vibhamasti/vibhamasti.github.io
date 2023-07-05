@@ -21,5 +21,11 @@
       "/notes/cs202/index.html",
       "/notes/cs201/index.html"
     ]
+  },
+  {
+    "listing": "/blog.html",
+    "items": [
+      "/blog/gre/index.html"
+    ]
   }
 ]

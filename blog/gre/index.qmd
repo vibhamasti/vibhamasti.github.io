@@ -1,9 +1,11 @@
 ---
-title: "How I Prepared for the GRE"
+title: "How I Scored a 334/340 on the GRE"
 author: "Vibha Masti"
 date: "Jul 2023"
-desc: My GRE study process
+description: A 2-month study guide for the GRE
 # image: ddco_thumbnail.png
 categories: [grad apps]
 ---
+
+**Disclaimer:** this post reflects my own experience and opinions and is not sponsored by any company.
 
