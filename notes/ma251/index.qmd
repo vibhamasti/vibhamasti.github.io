@@ -18,7 +18,7 @@ categories: [ml, math, sem4]
 | :---------------- | -------------------------------- | ---------------------------------- |
 | Unit 1            |  TBA  | [LA Unit 1.pdf](LA%20Unit%201.pdf) |
 | Unit 2            | TBA | [LA Unit 2.pdf](LA%20Unit%202.pdf) |
-| Unit 3            | TBA  | [LA Unit 1.pdf](LA%20Unit%201.pdf) |
+| Unit 3            | TBA  | [LA Unit 3.pdf](LA%20Unit%203.pdf) |
 | Unit 4            | TBA | [LA Unit 4.pdf](LA%20Unit%204.pdf) |
 | Unit 5            | TBA | [LA Unit 5.pdf](LA%20Unit%205.pdf) |
 
