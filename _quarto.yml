@@ -19,7 +19,7 @@ website:
       - pubs.qmd
       # - posts.qmd
       - text: Resume
-        href: resumes/VibhaMasti_CV.pdf
+        href: resumes/Resume_VibhaMasti.pdf
         # external: true
       # - icon: envelope-fill
       #   href: mailto:vsmasti@gmail.com
