@@ -34,6 +34,7 @@ about:
 
 :::{#vibha-masti-header}
 
+<div style="text-align: justify"> 
 Hi there :wave:! I am a Master of Computational Data Science (MCDS) student at the Language Technologies Institute of Carnegie Mellon University. I did my Bachelor's degree in Computer Science and Engineering at PES University, Bangalore.
 
 My primary focus is applied machine learning/research engineering. My research interests lie in natural language generation and understanding, music generation, code generation, and graph-based learning. You can find my publications [here](pubs.qmd). In the past, I have interned at Apple, Goldman Sachs, Netradyne, and Vogo. You can find my resume [here](resumes/Resume_VibhaMasti.pdf).
@@ -41,6 +42,8 @@ My primary focus is applied machine learning/research engineering. My research i
 I believe in the power of visual storytelling and teaching. I enjoy making aesthetically-pleasing lecture notes that my peers at college (PES University) have been using to study. I was awarded by the Department of Computer Science and Engineering for my immense contributions through these notes. Feel free to check out my [notes](notes.qmd)! They are categorized by subject (most of them are CS subjects, but some are math/science).
 
 I learn to play the South-Indian instrument Saraswathi Veena in the Carnatic style. I also enjoy making YouTube videos about my experiences and interests. I have made videos about my college life, academic conferences, and more. You can check out my [YouTube channel](https://www.youtube.com/@VibhaMasti) if it interests you! 
+
+</div>
 
 :::
 
