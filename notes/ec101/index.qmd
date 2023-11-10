@@ -1,0 +1,41 @@
+---
+title: "UE19EC101 - Electronics and Communications Engineering"
+author: "Vibha Masti"
+date: "Dec 2019"
+image: ece_thumbnail.png
+course: UE19EC101
+categories: [ece, sem1]
+---
+
+**Course instructor:** Prof. Prajeesha
+
+<br>
+
+
+#### Syllabus and Class Notes
+
+| Unit              | Syllabus                         |       Vibha's Notes                |
+| :---------------- | -------------------------------- | ---------------------------------- |
+| Unit 1            |  TBA  | Sorry, no notes :confused: |
+| Unit 2            | TBA | Sorry, no notes :confused: |
+| Unit 3            | TBA  | [Digital Electronics.pdf](ECE%20Unit%203%20Digital%20Electronics%20Vibha.pdf) |
+| Unit 4            | TBA | Sorry, no notes :confused:  |
+| Unit 5            | TBA | Sorry, no notes :confused: |
+
+
+<br>
+
+
+<!-- #### Textbooks: 
+
+-  **T1**: "Learning PHP, MySQL & JavaScript", Robin Nixon. May 2018, 5th edition, O'Reilly Media, Inc.
+-  **T2**: "Pro MERN Stack: Full Stack Web App Development with Mongo, Express, React, and Node", by Vasan Subramanian. March 2017, Apress
+
+<br>
+
+#### Reference Books:
+
+- **R1**: "Beginning Node.js, Express & MongoDB Development", Greg Lim, July 2019
+- **R2**: "Learning React, Functional Web Development with React and Redux", Alex Banks and Eve Porcello, May 2017, O'Reilly Media, Inc.
+
+<br> -->
