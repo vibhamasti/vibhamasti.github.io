@@ -1,0 +1,42 @@
+---
+title: "UE19CS151 - Problem Solving Using C"
+author: "Vibha Masti"
+date: "May 2020"
+image: c_thumbnail.png
+course: UE19CS151
+categories: [cs, sem2]
+---
+
+**Course instructor:** Prof. Badri Prasad
+
+<br>
+
+
+#### Syllabus and Class Notes
+
+| Unit              | Syllabus                         |       Vibha's Notes                |
+| :---------------- | -------------------------------- | ---------------------------------- |
+| Unit 1            |  TBA  | [Unit 1 - Vibha.pdf](Unit%201%20-%20Vibha.pdf) |
+| Unit 2            | TBA | [Unit 2 - Vibha.pdf](Unit%202%20-%20Vibha.pdf) |
+| Unit 3            | TBA | [Unit 3 - Vibha.pdf](Unit%203%20-%20Vibha.pdf) |
+| Unit 4            | TBA | Sorry, no notes :confused: |
+| Unit 5            | TBA | [Unit 5 - Vibha.pdf](Unit%205%20-%20Vibha.pdf) |
+
+
+<br>
+
+
+<!-- #### Textbooks: 
+
+-  **T1**: "Digital Design and Computer Architecture", David Money Harris, Sarah L Harris, 2nd Edition, Morgan Kaufmann, 2012
+
+
+<br>
+
+#### Reference Books:
+
+- **R1**: "Digital Design", M Morris Mano, Michael D Ciletti, 6th Edition, Pearson, 2018
+- **R2**: "Computer Organization and Design", David A Patterson, John L Hennessey, 5th Edition, Elsevier, 2016
+- **R3**: "Computer Organization and Design", Carl Hamacher, Safwat Zaky, Zvonko Vranesic, 5th Edition, Tata McGraw-Hill, 2011
+
+<br> -->

@@ -2,6 +2,7 @@
   {
     "listing": "/notes.html",
     "items": [
+      "/notes/cs312/index.html",
       "/notes/cs352/index.html",
       "/notes/cs351/index.html",
       "/notes/cs345/index.html",
@@ -20,6 +21,12 @@
       "/notes/cs203/index.html",
       "/notes/cs202/index.html",
       "/notes/cs201/index.html",
+      "/notes/ph101/index.html",
+      "/notes/me101/index.html",
+      "/notes/ma151/index.html",
+      "/notes/cs151/index.html",
+      "/notes/PH Extra Quantum Field Theory/index.html",
+      "/notes/ma101/index.html",
       "/notes/cy101/index_test.html"
     ]
   },

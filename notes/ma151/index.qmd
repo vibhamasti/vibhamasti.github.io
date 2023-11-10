@@ -1,0 +1,43 @@
+---
+title: "UE19MA151 - Engineering Math 2"
+author: "Vibha Masti"
+date: "May 2020"
+image: ma_thumbnail.png
+course: UE19MA151
+categories: [math, sem2]
+---
+
+<!-- **Course instructor:** Prof.  -->
+
+<br>
+
+
+#### Syllabus and Class Notes
+
+| Unit              | Syllabus                         |       Vibha's Notes                |
+| :---------------- | -------------------------------- | ---------------------------------- |
+| Unit 1            |  Vector Calculus  | [Vector Calculus.pdf](01%20Vector%20Calculus%20-%20Vibha.pdf) |
+| Unit 2            | Special Functions | [Special Functions.pdf](02%20Special%20Functions%20-%20Vibha.pdf) \
+                                         [Problems.pdf](CIB%20Solutions%20Special%20Functions.pdf) |
+| Unit 3            | Laplace Transform  | [Laplace Transform.pdf](03%20Laplace%20Transform%20-%20Vibha.pdf) |
+| Unit 4            | Inverse Laplace Transform | [Inverse Laplace Transform.pdf](04%20Inverse%20Laplace%20Transform%20-%20Vibha.pdf) \
+                                            [Math Cheatsheet](Math%20Cheatsheet.pdf) |
+| Unit 5            | Fourier Series | [Fourier Series.pdf](05%20Fourier%20Series%20-%20Vibha.pdf) |
+
+
+<br>
+
+
+<!-- #### Textbooks: 
+
+-  **T1**: "Learning PHP, MySQL & JavaScript", Robin Nixon. May 2018, 5th edition, O'Reilly Media, Inc.
+-  **T2**: "Pro MERN Stack: Full Stack Web App Development with Mongo, Express, React, and Node", by Vasan Subramanian. March 2017, Apress
+
+<br>
+
+#### Reference Books:
+
+- **R1**: "Beginning Node.js, Express & MongoDB Development", Greg Lim, July 2019
+- **R2**: "Learning React, Functional Web Development with React and Redux", Alex Banks and Eve Porcello, May 2017, O'Reilly Media, Inc.
+
+<br> -->

@@ -1,0 +1,41 @@
+---
+title: "UE19MA101 - Engineering Math 1"
+author: "Vibha Masti"
+date: "Dec 2019"
+image: ma_thumbnail.png
+course: UE19MA101
+categories: [math, sem1]
+---
+
+**Course instructor:** Prof. Geetha Shankar
+
+<br>
+
+
+#### Syllabus and Class Notes
+
+| Unit              | Syllabus                         |       Vibha's Notes                |
+| :---------------- | -------------------------------- | ---------------------------------- |
+| Unit 1            |  Differential Calculus  | [Differential Calculus.pdf](01%20Differential%20Calculus%20-%20Vibha.pdf) |
+| Unit 2            | Partial Differentiation | [Partial Differentiation.pdf](02%20Partial%20Differentiation%20-%20Vibha.pdf) |
+| Unit 3            | TBA  | [Integral Calculus.pdf](03%20Integral%20Calculus%20-%20Vibha.pdf) |
+| Unit 4            | Integral Calculus | Sorry, no notes :confused: |
+| Unit 5            | Higher Order Differential Equations | [Higher Order DE.pdf](05%20Higher%20Order%20DE%20-%20Vibha.pdf) |
+
+
+<br>
+
+
+<!-- #### Textbooks: 
+
+-  **T1**: "Learning PHP, MySQL & JavaScript", Robin Nixon. May 2018, 5th edition, O'Reilly Media, Inc.
+-  **T2**: "Pro MERN Stack: Full Stack Web App Development with Mongo, Express, React, and Node", by Vasan Subramanian. March 2017, Apress
+
+<br>
+
+#### Reference Books:
+
+- **R1**: "Beginning Node.js, Express & MongoDB Development", Greg Lim, July 2019
+- **R2**: "Learning React, Functional Web Development with React and Redux", Alex Banks and Eve Porcello, May 2017, O'Reilly Media, Inc.
+
+<br> -->
