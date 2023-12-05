@@ -49,23 +49,25 @@ I learn to play the South-Indian instrument Saraswathi Veena in the Carnatic sty
 
 ## Education
 
-### Carnegie Mellon University								     Pittsburgh, PA
-- Master of Computational Data Science (MCDS)				                	  December 2024
-- GPA: 4.33/4.00. Coursework: Intro to Deep Learning (PhD), Intro to Machine Learning, On-Device Machine Learning (PhD)
+### Carnegie Mellon University | Pittsburgh, PA
+- Master of Computational Data Science (MCDS) _[December 2024]_
+- GPA: 4.33/4.00
+- Coursework: Intro to Deep Learning (PhD), Intro to Machine Learning, On-Device Machine Learning (PhD)
 
-### PES University									                Bangalore, India
-Bachelor of Technology in Computer Science and Engineering	    	               	                           May 2023
-GPA: 9.84/10.00. Coursework: Natural Language Processing, Machine Intelligence, Data Analytics, Big Data
-Awards: Prof. CNR Rao Scholarship (top 2%), Immense Contribution Award
+### PES University | Bangalore, India
+- Bachelor of Technology in Computer Science and Engineering _[May 2023]_
+- GPA: 9.84/10.00
+- Coursework: Natural Language Processing, Machine Intelligence, Data Analytics, Big Data
+- Awards: Prof. CNR Rao Scholarship (top 2%), Immense Contribution Award
 
 
 ## News
 
 ### 2023
 
-- **[08/28]** Officially started my Fall semester at Carnegie Mellon University! 
-- **[07/05]** I wrote a Medium article on [How I Scored a 334 on the GRE](https://medium.com/@vibhamasti/how-i-scored-a-334-on-the-gre-415b98c0f56d).
-- **[01/09]** I started my 6-month spring internship/co-op at Apple! I am so excited for this experience and unbelievably grateful.
+- **[08/28]** Officially started my first Fall semester at the Language Technologies Institute at Carnegie Mellon University! 
+- **[07/05]** I wrote a Medium article on [How I Scored a 330+ on the GRE](https://medium.com/@vibhamasti/how-i-scored-a-334-on-the-gre-415b98c0f56d).
+- **[01/09]** I started my 6-month spring internship/co-op at Apple to work on Applied ML! I am so excited for this experience and unbelievably grateful.
 
 ### 2022
 
