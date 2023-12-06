@@ -9,7 +9,7 @@ page-layout: full
 
 #### 2023
 
-- ##### ScripTONES: Sentiment-Conditioned Music Generation for Movie Scripts
+- ##### [ScripTONES: Sentiment-Conditioned Music Generation for Movie Scripts](https://mlforaudioworkshop.com/ScripTONES.pdf)
   - _Vishruth Veerendranath, **Vibha Masti**, Utkarsh Gupta, Hrishit Chaudhuri, Gowri Srinivasa_
   - NeurIPS - Machine Learning for Audio Workshop
   - AIML Systems - Generative AI Workshop
