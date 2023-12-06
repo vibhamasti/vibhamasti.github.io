@@ -49,15 +49,12 @@ I learn to play the South-Indian instrument Saraswathi Veena in the Carnatic sty
 
 ## Education
 
-### Carnegie Mellon University | Pittsburgh, PA
-- Master of Computational Data Science (MCDS) _[December 2024]_
-- GPA: 4.33/4.00
+#### Carnegie Mellon University | Pittsburgh, PA
+- Master of Computational Data Science (MCDS)
 - Coursework: Intro to Deep Learning (PhD), Intro to Machine Learning, On-Device Machine Learning (PhD)
 
-### PES University | Bangalore, India
-- Bachelor of Technology in Computer Science and Engineering _[May 2023]_
-- GPA: 9.84/10.00
-- Coursework: Natural Language Processing, Machine Intelligence, Data Analytics, Big Data
+#### PES University | Bangalore, India
+- Bachelor of Technology in Computer Science and Engineering
 - Awards: Prof. CNR Rao Scholarship (top 2%), Immense Contribution Award
 
 
