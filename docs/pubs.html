@@ -20,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -64,6 +98,7 @@ ul.task-list li input[type="checkbox"] {
 
 <link rel="stylesheet" href="styles.scss">
 <meta name="twitter:title" content="Vibha Masti - Publications">
+<meta name="twitter:description" content="">
 <meta name="twitter:card" content="summary">
 </head>
 
@@ -128,53 +163,93 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<!-- List of publications -->
-<!-- - #### [ScripTONES: Sentiment-Conditioned Music Generation for Movie Scripts](https://aclanthology.org/2022.aacl-srw.7.pdf) -->
-<section id="section" class="level4">
-<h4 class="anchored" data-anchor-id="section">2023</h4>
-<ul>
-<li><h5 id="scriptones-sentiment-conditioned-music-generation-for-movie-scripts" class="anchored"><a href="https://mlforaudioworkshop.com/ScripTONES.pdf">ScripTONES: Sentiment-Conditioned Music Generation for Movie Scripts</a></h5>
-<ul>
-<li><em>Vishruth Veerendranath, <strong>Vibha Masti</strong>, Utkarsh Gupta, Hrishit Chaudhuri, Gowri Srinivasa</em></li>
-<li>NeurIPS - Machine Learning for Audio Workshop</li>
-<li>AIML Systems - Generative AI Workshop</li>
-</ul></li>
-</ul>
-</section>
-<section id="section-1" class="level4">
-<h4 class="anchored" data-anchor-id="section-1">2022</h4>
-<ul>
-<li><h5 id="c3po-a-lightweight-copying-mechanism-for-translating-pseudocode-to-code" class="anchored"><a href="https://aclanthology.org/2022.aacl-srw.7.pdf">C3PO: A Lightweight Copying Mechanism for Translating Pseudocode to Code</a></h5>
-<ul>
-<li><em>Vishruth Veerendranath, <strong>Vibha Masti</strong>, Prajwal Anagani, Mamatha HR</em></li>
-<li>AACL-IJCNLP 2022 - Student Research Workshop</li>
-</ul></li>
-<li><h5 id="graphcoreg-co-training-for-regression-on-temporal-graphs" class="anchored"><a href="https://openreview.net/forum?id=JExuzizhS-p">GraphCoReg: Co-Training for Regression on Temporal Graphs</a></h5>
-<ul>
-<li><em>Harshith Mohan Kumar, Vishruth Veerendranath, <strong>Vibha Masti</strong>, Divya Shekar, Bhaskarjyoti Das</em></li>
-<li>ECML-PKDD 2022 - International Workshop on Mining and Learning with Graphs</li>
-<li><span style="color: #E8590B"> <strong>Student Best Paper Award</strong> </span> <span class="emoji" data-emoji="trophy">🏆</span></li>
-</ul></li>
-<li><h5 id="multivariate-covid-19-forecasting-with-vaccinations-as-a-factor-the-case-of-india-and-usa" class="anchored"><a href="https://ieeexplore.ieee.org/document/9864476">Multivariate Covid-19 Forecasting with Vaccinations as a factor: the case of India and USA</a></h5>
-<ul>
-<li><em><strong>Vibha Masti</strong>, Vishruth Veerendranath, Harshith Mohan Kumar</em></li>
-<li>ICML 2022 - 1st Workshop on Healthcare AI and COVID-19</li>
-<li>IEEE Region 10 Symposium (TENSYMP) 2022</li>
-</ul></li>
-</ul>
-</section>
-<section id="section-2" class="level4">
-<h4 class="anchored" data-anchor-id="section-2">2021</h4>
-<ul>
-<li><h5 id="a-comparative-study-of-algorithms-for-intelligent-traffic-signal-control" class="anchored"><a href="https://arxiv.org/abs/2109.00937">A Comparative Study of Algorithms for Intelligent Traffic Signal Control</a></h5>
-<ul>
-<li><em>Hrishit Chaudhuri, <strong>Vibha Masti</strong>, Vishruth Veerendranath, S Natarajan</em></li>
-<li>ICMLAS 2021</li>
-</ul></li>
-</ul>
+<style>
+  .citation {
+    display: none;
+  }
+  .show-citation {
+    display: block;
+  }
+</style>
+<script>
+  function toggleCitation(id) {
+    var citationDiv = document.getElementById("citation-" + id);
+    citationDiv.classList.toggle("show-citation");
+  }
+</script>
+<p><br>
+</p>
+<p><strong>ScripTONES: Sentiment-Conditioned Music Generation for Movie Scripts</strong><br>
+<em>NeurIPS 2023 - Machine Learning for Audio Workshop, AIML Systems 2023 - Generative AI Workshop</em><br>
+Vishruth Veerendranath, <strong>Vibha Masti</strong>, Utkarsh Gupta, Hrishit Chaudhuri, Gowri Srinivasa<br>
+<a href="https://mlforaudioworkshop.com/ScripTONES.pdf" type="button" class="btn btn-outline-primary btn-sm">paper</a> <a href="posters/ScripTONES.pdf" type="button" class="btn btn-outline-primary btn-sm">poster</a> <a href="https://torpid-okra-923.notion.site/ScripTONES-Sentiment-Conditioned-Music-Generation-for-Movie-Scripts-fb7038d68112435ea120af2bb7cc64b0" type="button" class="btn btn-outline-primary btn-sm">website</a></p>
+<p><strong>C3PO: A Lightweight Copying Mechanism for Translating Pseudocode to Code</strong><br>
+<em>AACL-IJCNLP 2022 - Student Research Workshop</em><br>
+Vishruth Veerendranath, <strong>Vibha Masti</strong>, Prajwal Anagani, Mamatha HR<br>
+<a href="https://aclanthology.org/2022.aacl-srw.7" type="button" class="btn btn-outline-primary btn-sm">paper</a> <a href="https://github.com/Pseudocode-to-Code/C3PO" type="button" class="btn btn-outline-primary btn-sm">code</a> <button onclick="toggleCitation('c3po')" class="btn btn-outline-primary btn-sm">bib</button></p>
+<div id="citation-c3po" class="citation">
+<div class="sourceCode" id="cb1"><pre class="sourceCode bib code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="va">@inproceedings</span>{<span class="ot">veerendranath</span>-<span class="ot">etal</span>-<span class="ot">2022</span>-<span class="ot">c3po</span>,</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">title</span> = "<span class="st">{C3PO}: {A} Lightweight Copying Mechanism for Translating Pseudocode to Code</span>",</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">author</span> = "<span class="st">Veerendranath, Vishruth and Masti, Vibha and Anagani, Prajwal and Hr, Mamatha</span>",</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">booktitle</span> = "<span class="st">Proceedings of the 2nd Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics and the 12th International Joint Conference on Natural Language Processing: Student Research Workshop</span>",</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">month</span> = <span class="st">nov</span>,</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>  <span class="dt">year</span> = "<span class="st">2022</span>",</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>  <span class="dt">address</span> = "<span class="st">Online</span>",</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>  <span class="dt">publisher</span> = "<span class="st">Association for Computational Linguistics</span>",</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>  <span class="dt">url</span> = "<span class="st">https://aclanthology.org/2022.aacl-srw.7</span>",</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>  <span class="dt">pages</span> = "<span class="st">47--53</span>"</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<!-- Add a bibtex button that opens a code block -->
+<p><strong>GraphCoReg: Co-Training for Regression on Temporal Graphs</strong><br>
+<em>ECML-PKDD 2022 - International Workshop on Mining and Learning with Graphs</em><br>
+Harshith Mohan Kumar, Vishruth Veerendranath, <strong>Vibha Masti</strong>, Divya Shekar, Bhaskarjyoti Das<br>
+<span style="color: #E8590B"> <strong>Student Best Paper Award</strong> </span> <span class="emoji" data-emoji="trophy">🏆</span><br>
+<a href="https://openreview.net/forum?id=JExuzizhS-p" type="button" class="btn btn-outline-primary btn-sm">paper</a> <a href="https://github.com/Deep-Co-Training/GraphCoReg" type="button" class="btn btn-outline-primary btn-sm">code</a> <button onclick="toggleCitation('graph')" class="btn btn-outline-primary btn-sm">bib</button></p>
+<div id="citation-graph" class="citation">
+<div class="sourceCode" id="cb2"><pre class="sourceCode bib code-with-copy"><code class="sourceCode bibtex"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="va">@inproceedings</span>{</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>  <span class="ot">kumar2022graphcoreg</span>,</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">title</span>={GraphCoReg: Co-Training for Regression on Temporal Graphs},</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">author</span>={Harshith Mohan Kumar and Vishruth Veerendranath and Vibha Masti and Divya Shekar and Bhaskarjyoti Das},</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">booktitle</span>={18th International Workshop on Mining and Learning with Graphs},</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>  <span class="dt">year</span>={2022},</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>  <span class="dt">url</span>={https://openreview.net/forum?id=JExuzizhS-p}</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<strong>Multivariate Covid-19 Forecasting with Vaccinations as a factor: the case of India and USA</strong><br>
+<em>ICML 2022 - 1st Workshop on Healthcare AI and COVID-19, IEEE Region 10 Symposium (TENSYMP) 2022</em><br>
+<strong>Vibha Masti*</strong>, Vishruth Veerendranath*, Harshith Mohan Kumar*<br>
+
+<p>
+<small>*equal contribution </small>
+</p>
+<p><a href="https://ieeexplore.ieee.org/document/9864476" type="button" class="btn btn-outline-primary btn-sm">paper</a> <a href="https://github.com/Data-Analytics-Project-2021/covid19-prediction" type="button" class="btn btn-outline-primary btn-sm">code</a> <button onclick="toggleCitation('covid')" class="btn btn-outline-primary btn-sm">bib</button></p>
+<div id="citation-covid" class="citation">
+<div class="sourceCode" id="cb3"><pre class="sourceCode bib code-with-copy"><code class="sourceCode bibtex"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="va">@inproceedings</span>{<span class="ot">9864476</span>,</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">author</span>={Masti, Vibha and Veerendranath, Vishruth and Kumar, Harshith Mohan},</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">booktitle</span>={2022 IEEE Region 10 Symposium (TENSYMP)}, </span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">title</span>={Multivariate Covid-19 Forecasting with Vaccinations as a factor: the case of India and USA}, </span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">year</span>={2022},</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>  <span class="dt">volume</span>={},</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>  <span class="dt">number</span>={},</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>  <span class="dt">pages</span>={1-6},</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>  <span class="dt">doi</span>={10.1109/TENSYMP54529.2022.9864476}}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<strong>A Comparative Study of Algorithms for Intelligent Traffic Signal Control</strong><br>
+Hrishit Chaudhuri, <strong>Vibha Masti</strong>, Vishruth Veerendranath, S Natarajan<br>
+<a href="https://arxiv.org/abs/2109.00937" type="button" class="btn btn-outline-primary btn-sm">paper</a> <a href="https://github.com/intelligent-traffic-signal/mini-proj-traffic" type="button" class="btn btn-outline-primary btn-sm">code</a> <button onclick="toggleCitation('traffic')" class="btn btn-outline-primary btn-sm">bib</button>
+<div id="citation-traffic" class="citation">
+<div class="sourceCode" id="cb4"><pre class="sourceCode bib code-with-copy"><code class="sourceCode bibtex"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="va">@incollection</span>{<span class="ot">chaudhuri2022comparative</span>,</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">title</span>={A comparative study of algorithms for intelligent traffic signal control},</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">author</span>={Chaudhuri, Hrishit and Masti, Vibha and Veerendranath, Vishruth and Natarajan, S},</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">booktitle</span>={Machine Learning and Autonomous Systems: Proceedings of ICMLAS 2021},</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">pages</span>={271--287},</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>  <span class="dt">year</span>={2022},</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>  <span class="dt">publisher</span>={Springer}</span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
