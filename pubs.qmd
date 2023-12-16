@@ -20,6 +20,8 @@ page-layout: full
 </script>
 
 \
+Check out my [Google Scholar](https://scholar.google.com/citations?user=v7O9-RgAAAAJ&hl=en) for a more updated list of publications. \
+\
 
 **ScripTONES: Sentiment-Conditioned Music Generation for Movie Scripts** \
 _NeurIPS 2023 - Machine Learning for Audio Workshop, AIML Systems 2023 - Generative AI Workshop_ \
