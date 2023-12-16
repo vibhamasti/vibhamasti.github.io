@@ -15,12 +15,9 @@ about:
   template: trestles
   image-width: 10em
   links:
-    - icon: envelope-fill
-      text: personal mail
-      href: mailto:vsmasti@gmail.com
-    - icon: envelope-fill
-      text: college mail
-      href: mailto:vmasti@andrew.cmu.edu
+    # - icon: envelope-fill
+    #   text: personal mail
+    #   href: mailto:vsmasti@gmail.com
     - icon: linkedin
       text: linkedin
       href: https://www.linkedin.com/in/vibha-masti/
@@ -30,9 +27,23 @@ about:
     - icon: medium
       text: medium
       href: https://medium.com/@vibhamasti
+    - icon: mortarboard-fill
+      text: google scholar
+      href: https://scholar.google.com/citations?user=v7O9-RgAAAAJ&hl=en
+
+    # Link to nothing
+    - icon: envelope-fill
+      text: vmasti at andrew dot cmu dot edu
+      # href: mailto:vmasti@cmu
+
+# Add email in code block
 ---
 
 :::{#vibha-masti-header}
+
+
+```
+```
 
 <div style="text-align: justify"> 
 Hi there :wave:! I am a Master of Computational Data Science (MCDS) student at the Language Technologies Institute of Carnegie Mellon University. I did my Bachelor's degree in Computer Science and Engineering at PES University, Bangalore.
@@ -49,13 +60,13 @@ I learn to play the South-Indian instrument Saraswathi Veena in the Carnatic sty
 
 ## Education
 
-#### Carnegie Mellon University | Pittsburgh, PA
-- Master of Computational Data Science (MCDS)
-- Coursework: Intro to Deep Learning (PhD), Intro to Machine Learning, On-Device Machine Learning (PhD)
+**Carnegie Mellon University** | Pittsburgh, PA \
+_Master of Computational Data Science (MCDS)_ \
+<small>Coursework: Intro to Deep Learning (PhD), Intro to Machine Learning, On-Device Machine Learning (PhD)</small> \
 
-#### PES University | Bangalore, India
-- Bachelor of Technology in Computer Science and Engineering
-- Awards: Prof. CNR Rao Scholarship (top 2%), Immense Contribution Award
+**PES University** | Bangalore, India \
+_Bachelor of Technology in Computer Science and Engineering_ \
+<small>Awards: Prof. CNR Rao Scholarship (top 2%), Immense Contribution Award</small> \
 
 
 ## News
