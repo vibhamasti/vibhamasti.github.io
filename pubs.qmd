@@ -36,6 +36,7 @@ _AACL-IJCNLP 2022 - Student Research Workshop_ \
 Vishruth Veerendranath, **Vibha Masti**, Prajwal Anagani, Mamatha HR  \
 <a href="https://aclanthology.org/2022.aacl-srw.7" type="button" class="btn btn-outline-primary btn-sm">paper</a>
 <a href="https://github.com/Pseudocode-to-Code/C3PO" type="button" class="btn btn-outline-primary btn-sm">code</a>
+<a href="https://underline.io/lecture/64860-c3po-a-lightweight-copying-mechanism-for-translating-pseudocode-to-code" type="button" class="btn btn-outline-primary btn-sm">video</a>
 <button onclick="toggleCitation('c3po')" class="btn btn-outline-primary btn-sm">bib</button>
 
 <div id="citation-c3po" class="citation">
@@ -53,7 +54,6 @@ Vishruth Veerendranath, **Vibha Masti**, Prajwal Anagani, Mamatha HR  \
   }
   ```
 </div>
-
 
 <!-- Add a bibtex button that opens a code block -->
 
@@ -83,7 +83,6 @@ Harshith Mohan Kumar, Vishruth Veerendranath, **Vibha Masti**, Divya Shekar, Bha
 **Multivariate Covid-19 Forecasting with Vaccinations as a factor: the case of India and USA** \
 _ICML 2022 - 1st Workshop on Healthcare AI and COVID-19, IEEE Region 10 Symposium (TENSYMP) 2022_ \
 **Vibha Masti\***, Vishruth Veerendranath\*, Harshith Mohan Kumar\* \
-<p><small>\*equal contribution </small></p>
 <a href="https://ieeexplore.ieee.org/document/9864476" type="button" class="btn btn-outline-primary btn-sm">paper</a>
 <a href="https://github.com/Data-Analytics-Project-2021/covid19-prediction" type="button" class="btn btn-outline-primary btn-sm">code</a>
 <button onclick="toggleCitation('covid')" class="btn btn-outline-primary btn-sm">bib</button>
@@ -103,7 +102,7 @@ _ICML 2022 - 1st Workshop on Healthcare AI and COVID-19, IEEE Region 10 Symposiu
 </div>
 
 **A Comparative Study of Algorithms for Intelligent Traffic Signal Control** \
-Hrishit Chaudhuri, **Vibha Masti**, Vishruth Veerendranath, S Natarajan \
+Hrishit Chaudhuri\*, **Vibha Masti\***, Vishruth Veerendranath\*, S Natarajan \
 <a href="https://arxiv.org/abs/2109.00937" type="button" class="btn btn-outline-primary btn-sm">paper</a>
 <a href="https://github.com/intelligent-traffic-signal/mini-proj-traffic" type="button" class="btn btn-outline-primary btn-sm">code</a>
 <button onclick="toggleCitation('traffic')" class="btn btn-outline-primary btn-sm">bib</button>

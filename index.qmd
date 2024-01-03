@@ -58,6 +58,20 @@ I learn to play the South-Indian instrument Saraswathi Veena in the Carnatic sty
 
 :::
 
+
+## News
+
+- **December 2023:** Attending my first NeurIPS to present at the Machine Learning for Audio Workshop!
+- **August 2023:** Officially started my first Fall semester at the Language Technologies Institute at Carnegie Mellon University! 
+- **July 2023:** I wrote a Medium article on [How I Scored a 330+ on the GRE](https://medium.com/@vibhamasti/how-i-scored-a-334-on-the-gre-415b98c0f56d).
+- **January 2023:** I started my 6-month spring internship/co-op at Apple to work on Applied ML! I am so excited for this experience and unbelievably grateful.
+- **December 2022:** I volunteered for the ISMIR 2022 conference in Bangalore, India from 4th to 9th December 2022.
+- **September 2022:** I attended the ECML-PKDD 2022 conference in Grenoble, France with my teammates to present at the MLG workshop. Check out my [vlog](https://youtu.be/l-xS1BjREHs) on it!
+- **July 2022:** I traveled to Mumbai with my teammates to attend the IEEE TENSYMP conference and present our paper. I made a [YouTube video](https://www.youtube.com/watch?v=T6xu4eKhvac) about the experience!
+<!-- - **June 6, 2022** I started my summer internship at Goldman Sachs. -->
+<!-- - **[06/03]** Made my first ever [vlog](https://www.youtube.com/watch?v=EzQwSakbJ_U&t=4s)! It's about my 6th semester of college which was (finally) in-person! -->
+
+
 ## Education
 
 **Carnegie Mellon University** | Pittsburgh, PA \
@@ -67,22 +81,3 @@ _Master of Computational Data Science (MCDS)_ \
 **PES University** | Bangalore, India \
 _Bachelor of Technology in Computer Science and Engineering_ \
 <small>Awards: Prof. CNR Rao Scholarship (top 2%), Immense Contribution Award</small> \
-
-
-## News
-
-### 2023
-
-- **[12/14]** Attending my first NeurIPS to present at the Machine Learning for Audio Workshop!
-- **[08/28]** Officially started my first Fall semester at the Language Technologies Institute at Carnegie Mellon University! 
-- **[07/05]** I wrote a Medium article on [How I Scored a 330+ on the GRE](https://medium.com/@vibhamasti/how-i-scored-a-334-on-the-gre-415b98c0f56d).
-- **[01/09]** I started my 6-month spring internship/co-op at Apple to work on Applied ML! I am so excited for this experience and unbelievably grateful.
-
-### 2022
-
-- **[12/04]** I volunteered for the ISMIR 2022 conference in Bangalore, India from 4th to 9th December 2022.
-- **[09/19]** I attended the ECML-PKDD 2022 conference in Grenoble, France with my teammates to present at the MLG workshop. Check out my [vlog](https://youtu.be/l-xS1BjREHs) on it!
-- **[07/01]** I traveled to Mumbai with my teammates to attend the IEEE TENSYMP conference and present our paper. I made a [YouTube video](https://www.youtube.com/watch?v=T6xu4eKhvac) about the experience!
-- **[06/06]** I started my summer internship at Goldman Sachs.
-<!-- - **[06/03]** Made my first ever [vlog](https://www.youtube.com/watch?v=EzQwSakbJ_U&t=4s)! It's about my 6th semester of college which was (finally) in-person! -->
-
