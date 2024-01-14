@@ -42,19 +42,17 @@ about:
 :::{#vibha-masti-header}
 
 
-```
-```
 
-<div style="text-align: justify"> 
-Hi there :wave:! I am a Master of Computational Data Science (MCDS) student at the Language Technologies Institute of Carnegie Mellon University. I did my Bachelor's degree in Computer Science and Engineering at PES University, Bangalore.
+<!-- <div style="text-align: justify">  -->
+I'm a master's student at the [Language Technologies Institute, Carnegie Mellon University](https://www.lti.cs.cmu.edu/). I completed my Bachelor's degree in Computer Science and Engineering at [PES University](https://cs.pes.edu/).
 
-My research interests lie broadly in NLP, including natural language generation and understanding, music generation, code generation, and graph-based learning. You can find a list of my [publications](pubs.qmd) and my [resume](resumes/Resume_VibhaMasti.pdf).
+My research interests lie broadly in NLP, including natural language generation and understanding, visuolinguistic generation, music generation. You can find a list of my [publications](pubs.qmd) and my [resume](resumes/Resume_VibhaMasti.pdf).
 
 I believe in the power of visual storytelling and teaching. I enjoy making study notes and I was awarded by PES University's Department of Computer Science and Engineering for my immense contributions. Feel free to check out my [notes](notes.qmd)! They are categorized by subject -- most of them are CS subjects, but some are math/science.
 
-I learn to play the South-Indian instrument Saraswathi Veena in the Carnatic style. I also enjoy making YouTube videos about my experiences and interests. I have made videos about my college life, academic conferences, and more. You can check out my [YouTube channel](https://www.youtube.com/@VibhaMasti) if it interests you! 
+I learn to play the South-Indian instrument [Saraswathi Veena](https://www.youtube.com/watch?v=tswRaO-RTgU) in the Carnatic style. I also enjoy cooking and baking quite a bit. I occasionaly enjoy making YouTube videos about my experiences and interests. You can check out my [YouTube channel](https://www.youtube.com/@VibhaMasti) if it interests you!
 
-</div>
+<!-- </div> -->
 
 :::
 
@@ -67,7 +65,7 @@ I learn to play the South-Indian instrument Saraswathi Veena in the Carnatic sty
 - **January 2023:** I started my 6-month spring internship/co-op at Apple to work on Applied ML! I am so excited for this experience and unbelievably grateful.
 - **December 2022:** I volunteered for the ISMIR 2022 conference in Bangalore, India from 4th to 9th December 2022.
 - **September 2022:** I attended the ECML-PKDD 2022 conference in Grenoble, France with my teammates to present at the MLG workshop. Check out my [vlog](https://youtu.be/l-xS1BjREHs) on it!
-- **July 2022:** I traveled to Mumbai with my teammates to attend the IEEE TENSYMP conference and present our paper. I made a [YouTube video](https://www.youtube.com/watch?v=T6xu4eKhvac) about the experience!
+<!-- - **July 2022:** I traveled to Mumbai with my teammates to attend the IEEE TENSYMP conference and present our paper. I made a [YouTube video](https://www.youtube.com/watch?v=T6xu4eKhvac) about the experience! -->
 <!-- - **June 6, 2022** I started my summer internship at Goldman Sachs. -->
 <!-- - **[06/03]** Made my first ever [vlog](https://www.youtube.com/watch?v=EzQwSakbJ_U&t=4s)! It's about my 6th semester of college which was (finally) in-person! -->
 
