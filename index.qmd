@@ -44,9 +44,13 @@ about:
 
 
 <!-- <div style="text-align: justify">  -->
-I'm a master's student at the [Language Technologies Institute, Carnegie Mellon University](https://www.lti.cs.cmu.edu/). I completed my Bachelor's degree in Computer Science and Engineering at [PES University](https://cs.pes.edu/).
+I'm a Master of Computational Data Science student at the [Language Technologies Institute, Carnegie Mellon University](https://www.lti.cs.cmu.edu/). I completed my Bachelor's degree in Computer Science and Engineering at [PES University](https://cs.pes.edu/).
 
-My research interests lie broadly in NLP, including natural language generation and understanding, visuolinguistic generation, music generation. You can find a list of my [publications](pubs.qmd) and my [resume](resumes/Resume_VibhaMasti.pdf).
+
+My research interests are broadly efficieny and fidelity in machine learning. I am currently working with [Prof. Emma Strubell](https://strubell.github.io/) on ways to reuse parameters while growing and fine-tuning models. I am also working with [Prof. Yonatan Bisk](https://yonatanbisk.com/) on evaluating the semantic understanding capabilities of text-to-image generation models. 
+
+Last winter/spring, I interned at Apple India, where I worked on few-shot multi-label classification of error logs. Prior to that, I worked on various projects including pseudocode to code generation, emotion-guided music generation, time-series forecasting of disease spread, reinforcement learning for traffic signal control, and graph-based semi-supervised learning. You can find a list of my [publications](pubs.qmd) and my [resume](resumes/Resume_VibhaMasti.pdf).
+
 
 I believe in the power of visual storytelling and teaching. I enjoy making study notes and I was awarded by PES University's Department of Computer Science and Engineering for my immense contributions. Feel free to check out my [notes](notes.qmd)! They are categorized by subject -- most of them are CS subjects, but some are math/science.
 
