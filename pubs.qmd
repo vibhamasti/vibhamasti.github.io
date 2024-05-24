@@ -26,9 +26,23 @@ Check out my [Google Scholar](https://scholar.google.com/citations?user=v7O9-RgA
 **ScripTONES: Sentiment-Conditioned Music Generation for Movie Scripts** \
 _NeurIPS 2023 - Machine Learning for Audio Workshop, AIML Systems 2023 - Generative AI Workshop_ \
 Vishruth Veerendranath, **Vibha Masti**, Utkarsh Gupta, Hrishit Chaudhuri, Gowri Srinivasa \
-<a href="https://mlforaudioworkshop.com/ScripTONES.pdf" type="button" class="btn btn-outline-primary btn-sm">paper</a>
+<a href="https://arxiv.org/abs/2401.07084" type="button" class="btn btn-outline-primary btn-sm">paper</a>
 <a href="posters/ScripTONES.pdf" type="button" class="btn btn-outline-primary btn-sm">poster</a>
 <a href="https://torpid-okra-923.notion.site/ScripTONES-Sentiment-Conditioned-Music-Generation-for-Movie-Scripts-fb7038d68112435ea120af2bb7cc64b0" type="button" class="btn btn-outline-primary btn-sm">website</a>
+<button onclick="toggleCitation('script')" class="btn btn-outline-primary btn-sm">bib</button>
+
+<div id="citation-script" class="citation">
+  ```bib
+  @inproceedings{veerendranath2023scriptones,
+    title={ScripTONES: Sentiment-Conditioned Music Generation for Movie Scripts},
+    author={Veerendranath, Vishruth and Masti, Vibha and Gupta, Utkarsh and Chaudhuri, Hrishit and Srinivasa, Gowri},
+    booktitle={Proceedings of the Third International Conference on AI-ML Systems},
+    pages={1--6},
+    year={2023}
+  }
+  ```
+</div>
+
 
 
 **C3PO: A Lightweight Copying Mechanism for Translating Pseudocode to Code** \
