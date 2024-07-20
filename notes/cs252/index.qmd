@@ -16,11 +16,11 @@ categories: [systems, cs, sem4]
 
 | Unit              | Syllabus                         |       Vibha's Notes                |
 | :---------------- | -------------------------------- | ---------------------------------- |
-| Unit 1            |  TBA  | [MPCA Unit 1.pdf](MPCA%20Unit%201.pdf) |
-| Unit 2            | TBA | [MPCA Unit 2.pdf](MPCA%20Unit%202.pdf) |
-| Unit 3            | TBA  | [MPCA Unit 3.pdf](MPCA%20Unit%203.pdf) |
-| Unit 4            | TBA | [MPCA Unit 4.pdf](MPCA%20Unit%204.pdf) |
-| Unit 5            | TBA | [MPCA Unit 5.pdf](MPCA%20Unit%205.pdf) |
+| Unit 1            |  Architecture, ISA  | [MPCA Unit 1.pdf](MPCA%20Unit%201.pdf) |
+| Unit 2            | Pipelining, Parallelism | [MPCA Unit 2.pdf](MPCA%20Unit%202.pdf) |
+| Unit 3            | memory hierarchy, caches  | [MPCA Unit 3.pdf](MPCA%20Unit%203.pdf) |
+| Unit 4            | I/O and Bus architecture | [MPCA Unit 4.pdf](MPCA%20Unit%204.pdf) |
+| Unit 5            | Advances in architecture | [MPCA Unit 5.pdf](MPCA%20Unit%205.pdf) |
 
 
 <br>

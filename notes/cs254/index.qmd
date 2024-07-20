@@ -16,11 +16,11 @@ categories: [systems, cs, sem4]
 
 | Unit              | Syllabus                         |       Vibha's Notes                |
 | :---------------- | -------------------------------- | ---------------------------------- |
-| Unit 1            |  TBA  | [OS Unit 1.pdf](OS%20Unit%201.pdf) |
-| Unit 2            | TBA | [OS Unit 2.pdf](OS%20Unit%202.pdf) |
-| Unit 3            | TBA  | Sorry, no notes :confused: |
-| Unit 4            | TBA | [OS Unit 4.pdf](OS%20Unit%204.pdf) |
-| Unit 5            | TBA | [OS Unit 5.pdf](OS%20Unit%205.pdf) |
+| Unit 1            | Introduction and process managemenet | [OS Unit 1.pdf](OS%20Unit%201.pdf) |
+| Unit 2            | Threads and concurrency | [OS Unit 2.pdf](OS%20Unit%202.pdf) |
+| Unit 3            | Memory management  | Sorry, no notes :confused: |
+| Unit 4            | Storage management | [OS Unit 4.pdf](OS%20Unit%204.pdf) |
+| Unit 5            | I/O Management and Security | [OS Unit 5.pdf](OS%20Unit%205.pdf) |
 
 
 <br>

@@ -16,12 +16,12 @@ categories: [algorithms, cs, sem3]
 
 | Unit              | Syllabus                         |       Vibha's Notes                |
 | :---------------- | -------------------------------- | ---------------------------------- |
-| Unit 1            |  TBA  | [Review of C.pdf](Review%20of%20C.pdf) |
-| Unit 2            | TBA | Sorry, no notes :confused: |
-| Unit 3            | TBA  | [Trees and Heaps.pdf](Trees%20%26%20Heaps%20-%20Class%20Notes.pdf) |
-| Unit 4            | TBA | [Graphs.pdf](DSA%20Unit%204%20-%20Graphs.pdf)  \
+| Unit 1            | Static & Dynamic memory allocation, Linked List, Sparse matrix  | [Review of C.pdf](Review%20of%20C.pdf) |
+| Unit 2            | Stacks and Queues | Sorry, no notes :confused: |
+| Unit 3            | Trees and Heaps  | [Trees and Heaps.pdf](Trees%20%26%20Heaps%20-%20Class%20Notes.pdf) |
+| Unit 4            | Balanced trees and graphs | [Graphs.pdf](DSA%20Unit%204%20-%20Graphs.pdf)  \
                         [Balanced Trees.pdf](Balanced%20Trees.pdf) |
-| Unit 5            | TBA | [Tries and Hashing.pdf](05%20-%20Tries%20%26%20Hashing.pdf) |
+| Unit 5            | Suffix trees, Tries, Hashing | [Tries and Hashing.pdf](05%20-%20Tries%20%26%20Hashing.pdf) |
 
 
 <br>

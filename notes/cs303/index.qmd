@@ -16,17 +16,17 @@ categories: [ml, cs, sem5]
 
 | Unit              | Syllabus                         |       Vibha's Notes                |
 | :---------------- | -------------------------------- | ---------------------------------- |
-| Unit 1            |  TBA  | [MI Unit 1.pdf](MI%20Unit%201.pdf) |
-| Unit 2            | TBA | [MI Unit 2.pdf](MI%20Unit%202.pdf) |
-| Unit 3            | TBA  | [Bayesian Learning.pdf](Bayesian%20Learning.pdf) \
+| Unit 1            |  Search Algorithms, Classification, Decision trees, Performance metrics  | [MI Unit 1.pdf](MI%20Unit%201.pdf) |
+| Unit 2            | Supervised learning with kNN, Neural Networks, SVM | [MI Unit 2.pdf](MI%20Unit%202.pdf) |
+| Unit 3            | Boosting and Stochastic Models, Bayesian learning | [Bayesian Learning.pdf](Bayesian%20Learning.pdf) \
                              [Hidden Markov Models.pdf](HMM.pdf) \
                              [Ensemble Models.pdf](Ensemble%20Models.pdf) |
-| Unit 4            | TBA | [Expectation Maximization.pdf](EM.pdf) \
+| Unit 4            | Unsupervised Learning, Dimensionality Reduction, Genetic Algorithms | [Expectation Maximization.pdf](EM.pdf) \
                             [Dimensionality Reduction.pdf](Dimensionality%20Reduction.pdf) \
                             [Clustering.pdf](Clustering.pdf) \
                             [Genetic Algorithms.pdf](Genetic%20Algorithms.pdf) \
                             [Particle Swarm Optimization.pdf](PSO.pdf) |
-| Unit 5            | TBA | [Convolutional Neural Networks.pdf](CNNs.pdf) \
+| Unit 5            | Deep Learning, CN, RNN, Optimizers | [Convolutional Neural Networks.pdf](CNNs.pdf) \
                             [LSTM and GRU.pdf](LSTM%20and%20GRU.pdf) \
                             [Optimizers.pdf](Optimizers.pdf) \
                             [Regularization.pdf](Regularization.pdf) \

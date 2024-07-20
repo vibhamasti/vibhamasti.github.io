@@ -16,11 +16,11 @@ categories: [systems, cs, sem5]
 
 | Unit              | Syllabus                         |       Vibha's Notes                |
 | :---------------- | -------------------------------- | ---------------------------------- |
-| Unit 1            |  TBA  | [DBMS Unit 1.pdf](DBMS%20Unit%201.pdf) |
-| Unit 2            | TBA | [DBMS Unit 2.pdf](DBMS%20Unit%202.pdf) |
-| Unit 3            | TBA  | [DBMS Unit 3.pdf](DBMS%20Unit%203.pdf) |
-| Unit 4            | TBA | [DBMS Unit 4.pdf](DBMS%20Unit%204.pdf) |
-| Unit 5            | TBA | [DBMS Unit 5.pdf](DBMS%20Unit%205.pdf) |
+| Unit 1            |  Introduction to Database and Conceptual Design using ERD  | [DBMS Unit 1.pdf](DBMS%20Unit%201.pdf) |
+| Unit 2            | Relational Model | [DBMS Unit 2.pdf](DBMS%20Unit%202.pdf) |
+| Unit 3            | Database design  | [DBMS Unit 3.pdf](DBMS%20Unit%203.pdf) |
+| Unit 4            | SQL | [DBMS Unit 4.pdf](DBMS%20Unit%204.pdf) |
+| Unit 5            | Design and Implementation of Database Systems | [DBMS Unit 5.pdf](DBMS%20Unit%205.pdf) |
 
 
 <br>

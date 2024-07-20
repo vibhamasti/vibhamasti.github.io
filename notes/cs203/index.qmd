@@ -16,11 +16,11 @@ categories: [ml, math, cs, sem3]
 
 | Unit              | Syllabus                         |       Vibha's Notes                |
 | :---------------- | -------------------------------- | ---------------------------------- |
-| Unit 1            |  TBA  | [Stats Unit 1.pdf](SDS%20Unit%201.pdf) |
-| Unit 2            | TBA | [Stats Unit 2.pdf](SDS%20Unit%202.pdf) |
-| Unit 3            | TBA  | [Stats Unit 3.pdf](SDS%20Unit%203.pdf) |
-| Unit 4            | TBA | [Stats Unit 4.pdf](SDS%20Unit%204.pdf) |
-| Unit 5            | TBA | Sorry, no notes :confused: |
+| Unit 1            |  Sampling, Statistics, Data visualization  | [Stats Unit 1.pdf](SDS%20Unit%201.pdf) |
+| Unit 2            | Random variables | [Stats Unit 2.pdf](SDS%20Unit%202.pdf) |
+| Unit 3            | Probability distributions  | [Stats Unit 3.pdf](SDS%20Unit%203.pdf) |
+| Unit 4            | Hypothesis and Inference | [Stats Unit 4.pdf](SDS%20Unit%204.pdf) |
+| Unit 5            | Power of Test and Simple Linear Regression | Sorry, no notes :confused: |
 
 
 <br>

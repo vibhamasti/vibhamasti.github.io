@@ -1,13 +1,13 @@
 ---
 title: "UE19CS312 - Data Analytics"
 author: "Vibha Masti"
-date: "Dec 2022"
+date: "Dec 2021"
 image: da_thumbnail.png
 course: UE19CS312
-categories: [ml, math, cs, sem5]
+categories: [ml, cs, sem5]
 ---
 
-**Course instructor:** Prof. Gowri Srinivasa
+**Course instructors:** Prof. Gowri Srinivasa
 
 <br>
 
@@ -16,11 +16,12 @@ categories: [ml, math, cs, sem5]
 
 | Unit              | Syllabus                         |       Vibha's Notes                |
 | :---------------- | -------------------------------- | ---------------------------------- |
-| Unit 1            |  TBA  | [DA Unit 1.pdf](DA%20Unit%201.pdf) |
-| Unit 2            | TBA | [DA Unit 2.pdf](DA%20Unit%202.pdf) |
-| Unit 3            | TBA  | [DA Unit 3.pdf](DA%20Unit%203.pdf) |
-| Unit 4            | TBA | [DA Unit 4.pdf](DA%20Unit%204.pdf) |
-| Unit 5            | TBA | [DA Unit 5.pdf](DA%20Unit%205.pdf) |
+| Unit 1            | Exploratory Data Analysis and Visualization | [DA Unit 1.pdf](DA%20Unit%201.pdf) \
+                              [Introduction to R.pdf](IntroToR%20-%20Vibha%20Masti.pdf) |
+| Unit 2            | Regression Analysis | [DA Unit 2.pdf](DA%20Unit%202.pdf) |
+| Unit 3            | Time Series Analysis  | [DA Unit 3.pdf](DA%20Unit%203.pdf) |
+| Unit 4            | Recommendation Systems | [DA Unit 4.pdf](DA%20Unit%204.pdf) |
+| Unit 5            | Advanced techniques, Latent Semantic Analysis, Markov chains, Confounding variables | [DA Unit 5.pdf](DA%20Unit%205.pdf) |
 
 
 <br>

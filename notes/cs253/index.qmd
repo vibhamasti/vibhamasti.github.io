@@ -16,11 +16,11 @@ categories: [systems, cs, sem4]
 
 | Unit              | Syllabus                         |       Vibha's Notes                |
 | :---------------- | -------------------------------- | ---------------------------------- |
-| Unit 1            |  TBA  | [CN Unit 1.pdf](CN%20Unit%201.pdf) |
-| Unit 2            | TBA | [CN Unit 2.pdf](CN%20Unit%202.pdf) |
-| Unit 3            | TBA  | [CN Unit 3.pdf](CN%20Unit%203.pdf) |
-| Unit 4            | TBA | [CN Unit 4.pdf](CN%20Unit%204.pdf) |
-| Unit 5            | TBA | [CN Unit 5.pdf](CN%20Unit%205.pdf) |
+| Unit 1            | Computer networks and the internet  | [CN Unit 1.pdf](CN%20Unit%201.pdf) |
+| Unit 2            | Application layer | [CN Unit 2.pdf](CN%20Unit%202.pdf) |
+| Unit 3            | Transport layer  | [CN Unit 3.pdf](CN%20Unit%203.pdf) |
+| Unit 4            | Network layer and internet protocol | [CN Unit 4.pdf](CN%20Unit%204.pdf) |
+| Unit 5            | Linnk layer and LAN | [CN Unit 5.pdf](CN%20Unit%205.pdf) |
 
 
 <br>

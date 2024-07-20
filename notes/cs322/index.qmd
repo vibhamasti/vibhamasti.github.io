@@ -16,11 +16,11 @@ categories: [ml, systems, cs, sem5]
 
 | Unit              | Syllabus                         |       Vibha's Notes                |
 | :---------------- | -------------------------------- | ---------------------------------- |
-| Unit 1            |  TBA  | [BD Unit 1.pdf](BD%20Unit%201.pdf) |
-| Unit 2            | TBA | [BD Unit 2.pdf](BD%20Unit%202.pdf) |
-| Unit 3            | TBA  | [BD Unit 3.pdf](BD%20Unit%203.pdf) |
-| Unit 4            | TBA | [BD Unit 4.pdf](BD%20Unit%204.pdf) |
-| Unit 5            | TBA | [BD Unit 5.pdf](BD%20Unit%205.pdf) |
+| Unit 1            | Big data definition, Map-reduce, Storage (HDFS) | [BD Unit 1.pdf](BD%20Unit%201.pdf) |
+| Unit 2            | Compute and Storage, Hadoop ecosystem, Pagerank, matrix multiplication, HIVE | [BD Unit 2.pdf](BD%20Unit%202.pdf) |
+| Unit 3            | In-memory computation, Scala/PySpark programming model, Transformations and Actions, SQL, Spark architecture, RDD, DF, wide and narrow dependencies, complexity of BD algorithms | [BD Unit 3.pdf](BD%20Unit%203.pdf) |
+| Unit 4            | Streaming analysis, Kafka, Bloom filters | [BD Unit 4.pdf](BD%20Unit%204.pdf) |
+| Unit 5            | Advanced analytics on big data, clustering algorithms, collaborative filtering, scaling NNs for big data | [BD Unit 5.pdf](BD%20Unit%205.pdf) |
 
 
 <br>
