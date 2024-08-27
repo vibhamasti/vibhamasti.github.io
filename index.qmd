@@ -45,9 +45,9 @@ about:
 <!-- <div style="text-align: justify">  -->
 I'm a Master's student at the [Language Technologies Institute, Carnegie Mellon University](https://www.lti.cs.cmu.edu/). I completed my Bachelor's degree in Computer Science and Engineering at [PES University](https://cs.pes.edu/).
 
-I am currently interning at Microsoft as an Applied Scientist Intern in the Bing Ads team where I am developing random and Bayesian hyperparameter and network architecture optimization techniques for models trained on large amounts of data. Last spring, I interned at Apple as a Machine Learning intern on few-shot multi-label classification of error logs.
+This summer, I interned at Microsoft as a Data & Applied Scientist Intern in the Bing Ads team where I am developed Bayesian hyperparameter optimization and network architecture search techniques for data-heavy models. Last spring, I interned at Apple as a Machine Learning intern where I worked on few-shot multi-label classification of error logs.
 
-My research interests are broadly efficieny and fidelity in machine learning. I am currently working with [Prof. Emma Strubell](https://strubell.github.io/) on ways to reuse parameters while growing and fine-tuning models. I am also working with [Prof. Yonatan Bisk](https://yonatanbisk.com/) on evaluating the semantic understanding capabilities of text-to-image generation models. Previously, I worked on various other projects and you can find a list of my [publications](pubs.qmd) and my [resume](resumes/Resume_VibhaMasti.pdf).
+My research interests are broadly efficieny and interpretability in machine learning. I am currently working with [Prof. Emma Strubell](https://strubell.github.io/) on ways to reuse parameters while growing and fine-tuning models. I am also working with [Prof. Yonatan Bisk](https://yonatanbisk.com/) on evaluating the semantic understanding capabilities of text-to-image generation models. Previously, I worked on various other projects and you can find a list of my [publications](pubs.qmd) and my [resume](resumes/Resume_VibhaMasti.pdf).
 
 
 <!-- </div> -->
