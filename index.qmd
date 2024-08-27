@@ -78,7 +78,7 @@ I learn to play the South-Indian instrument [Saraswathi Veena](https://www.youtu
 
 **Carnegie Mellon University** | Pittsburgh, PA \
 _Master of Computational Data Science (MCDS)_ \
-<small>Coursework: Intro to Deep Learning (PhD), Intro to Machine Learning, On-Device Machine Learning (PhD)</small> \
+<small>Coursework: Intro to Deep Learning (PhD), Intro to ML, On-Device ML (PhD), Cloud Computing, Advanced NLP (PhD)</small> \
 
 **PES University** | Bangalore, India \
 _Bachelor of Technology in Computer Science and Engineering_ \
