@@ -15,8 +15,8 @@ website:
   navbar:
     right:
       - notes.qmd
-      # - blog.qmd
       - pubs.qmd
+      - teaching.qmd
       # - posts.qmd
       - text: Resume
         href: resumes/Resume_VibhaMasti.pdf
