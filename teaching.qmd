@@ -4,5 +4,9 @@ page-layout: full
 title-block-banner: true
 ---
 
+### Teaching Assistantsips
 
-
+- CMU: 11-767 - On Device Machine Learning, Fall 2024
+- PESU: CS 345 - Network Analysis and Mining, Spring 2023
+- PESU: CS 312 - Data Analytics, Fall 2022
+- PESU: CS 202 - Data Structures and Algorithms, Spring 2022
