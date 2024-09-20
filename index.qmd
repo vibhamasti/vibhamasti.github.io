@@ -31,6 +31,8 @@ about:
       text: google scholar
       href: https://scholar.google.com/citations?user=v7O9-RgAAAAJ&hl=en
 
+    # https://www.lti.cs.cmu.edu/people/students/masti-vibha.html
+
     # Link to nothing
     - icon: envelope-fill
       text: vmasti at andrew dot cmu dot edu
