@@ -44,12 +44,11 @@ about:
 :::{#vibha-masti-header}
 
 
-<!-- <div style="text-align: justify">  -->
-I'm a Master's student at the [Language Technologies Institute, Carnegie Mellon University](https://www.lti.cs.cmu.edu/). I completed my Bachelor's degree in Computer Science and Engineering at [PES University](https://cs.pes.edu/).
+Hi there! I'm an Applied Scientist at Microsoft AI. I completed my Master's at the [Language Technologies Institute, Carnegie Mellon University](https://www.lti.cs.cmu.edu/) and earned my Bachelor's degree in Computer Science and Engineering at [PES University](https://cs.pes.edu/).
 
-This summer, I interned at Microsoft as a Data & Applied Scientist Intern in the Bing Ads team where I am developed Bayesian hyperparameter optimization and network architecture search techniques for data-heavy models. Last spring, I interned at Apple as a Machine Learning intern where I worked on few-shot multi-label classification of error logs.
+In 2024, I interned at Microsoft AI, where I utilized Bayesian hyperparameter optimization and network architecture search techniques to optimize model performance and size. In 2023, I interned at Apple and developed a few-shot multi-label text classifier and semi-automated data annotation.
 
-My research interests are broadly efficieny and interpretability in machine learning. I am currently working with [Prof. Emma Strubell](https://strubell.github.io/) on ways to reuse parameters while growing and fine-tuning models. I am also working with [Prof. Yonatan Bisk](https://yonatanbisk.com/) on evaluating the semantic understanding capabilities of text-to-image generation models. Previously, I worked on various other projects and you can find a list of my [publications](pubs.qmd) and my [resume](resumes/Resume_VibhaMasti.pdf).
+My research interests are broadly efficieny and interpretability in machine learning. I briefly worked with [Prof. Emma Strubell](https://strubell.github.io/) on ways to reuse parameters while growing and fine-tuning models. I also worked with [Prof. Yonatan Bisk](https://yonatanbisk.com/) on evaluating the semantic understanding capabilities of text-to-image generation models. Previously, I worked on various other projects and you can find a list of my [publications](pubs.qmd) and my [resume](resumes/Resume_VibhaMasti.pdf).
 
 
 <!-- </div> -->
@@ -64,11 +63,11 @@ I learn to play the South-Indian instrument [Saraswathi Veena](https://www.youtu
 
 ### News
 
-- **May 2024:** I started my summer internship at Microsoft as a Data Scientist Intern in the Bing Ads team!
+<!-- - **May 2024:** I started my summer internship at Microsoft as a Data Scientist Intern in the Bing Ads team! -->
 - **December 2023:** Attending my first NeurIPS to present at the Machine Learning for Audio Workshop!
 - **August 2023:** Officially started my first Fall semester at the Language Technologies Institute at Carnegie Mellon University! 
 - **July 2023:** I wrote a Medium article on [How I Scored a 330+ on the GRE](https://medium.com/@vibhamasti/how-i-scored-a-334-on-the-gre-415b98c0f56d).
-- **January 2023:** I started my 6-month spring internship/co-op at Apple to work on Applied ML! I am so excited for this experience and unbelievably grateful.
+<!-- - **January 2023:** I started my 6-month spring internship/co-op at Apple to work on Applied ML! I am so excited for this experience and unbelievably grateful. -->
 - **December 2022:** I volunteered for the ISMIR 2022 conference in Bangalore, India from 4th to 9th December 2022.
 - **September 2022:** I attended the ECML-PKDD 2022 conference in Grenoble, France with my teammates to present at the MLG workshop. Check out my [vlog](https://youtu.be/l-xS1BjREHs) on it!
 <!-- - **July 2022:** I traveled to Mumbai with my teammates to attend the IEEE TENSYMP conference and present our paper. I made a [YouTube video](https://www.youtube.com/watch?v=T6xu4eKhvac) about the experience! -->
