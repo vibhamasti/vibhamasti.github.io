@@ -15,6 +15,7 @@ website:
   navbar:
     right:
       - notes.qmd
+      - projects.qmd
       - pubs.qmd
       - teaching.qmd
       # - posts.qmd

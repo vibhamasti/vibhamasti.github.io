@@ -30,5 +30,11 @@
       "/notes/ec101/index.html",
       "/notes/cy101/index_test.html"
     ]
+  },
+  {
+    "listing": "/projects.html",
+    "items": [
+      "/projects/metal/index.html"
+    ]
   }
 ]

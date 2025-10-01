@@ -44,10 +44,10 @@ about:
 :::{#vibha-masti-header}
 
 
-Hi there :wave:! I'm an Applied Scientist at Microsoft AI. My interests are in building efficient and interpretable machine learning systems. I work on distributed data pipelines, large-scale daily re-training, counterfactual modeling, analyzing prediction fluctuations and predicting model behavior. I also enjoy building software frameworks and methods that push efficiency further. I have built a PyTorch-like framework with accelerated hardware-optimized kernels, explored paratemer-efficient pre-training techniques, and built Bayesian optimization techniques for neural architecture search. 
+Hi there :wave:! I'm an Applied Scientist at Microsoft AI (Monetization Engineering). My interests are in building efficient and interpretable machine learning systems. I earned my Master's degree at the Language Technologies Institute, Carnegie Mellon University and my Bachelor's degree in Computer Science and Engineering at PES University. You can find my [projects](projects.qmd), my [publications](pubs.qmd) and my [resume](resumes/Resume_VibhaMasti.pdf).
 
-I earned my Master's degree at the [Language Technologies Institute, Carnegie Mellon University](https://www.lti.cs.cmu.edu/) and my Bachelor's degree in Computer Science and Engineering at [PES University](https://cs.pes.edu/). I briefly worked with [Prof. Emma Strubell](https://strubell.github.io/) on ways to reuse parameters while growing and fine-tuning models. I also worked with [Prof. Yonatan Bisk](https://yonatanbisk.com/) on evaluating the semantic understanding capabilities of text-to-image generation models. In the past, I have worked on various other projects and you can find a list of my [publications](pubs.qmd) and my [resume](resumes/Resume_VibhaMasti.pdf).
 
+*Keywords:* model efficiency, interpretability, deep learning systems, data pipelines, distributed training, daily re-training, counterfactual modeling, Bayesian optimization, analyzing prediction fluctuations and predicting model behavior, evaluation.
 
 <!-- </div> -->
 
