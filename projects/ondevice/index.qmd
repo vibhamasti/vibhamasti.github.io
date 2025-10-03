@@ -8,12 +8,12 @@ categories: ["ml systems", "ml"]
 description: "*Lightweight image captioning model that runs on an iPhone*"
 ---
 
-My introduction into the efficiency space was thorugh a course I took at CMU called [On-Device Machine Learning](https://strubell.github.io/teaching/11-767/), co-taught by [Prof. Emma Strubell](https://strubell.github.io) and [Prof. Yonatan Bisk](https://talkingtorobots.com/yonatanbisk.html). I enjoyed this course so much that I ended up TAing for it right after. I learned how to optimize models for low-resource hardware inference through quantization, pruning, and distillation. I also learned how to use parameter-efficient techniques to fine-tune and post-train.
+My introduction into the efficiency space was through a course I took at CMU called [On-Device Machine Learning](https://strubell.github.io/teaching/11-767/), co-taught by [Prof. Emma Strubell](https://strubell.github.io) and [Prof. Yonatan Bisk](https://talkingtorobots.com/yonatanbisk.html). I enjoyed this course so much that I ended up TAing for it right after. I learned how to optimize models for low-resource hardware inference through quantization, pruning, and distillation. I also learned how to use parameter-efficient techniques to fine-tune and post-train. For this class's final project, my teammate and I built a lightweight image captioning model that runs on an iPhone with low latency.
 
 ## Living on the Edge: On-Device Image Captioning Model
 _Team: Vibha Masti, Eesha Shetty_
 
-Motivated by accesibility screen readers, our goal was to create an on-device near real-time image scene description model to run on hardware that is available to everyone. The tool is most useful if runs on a mobile phone, which is a device most people always have on hand. Running offline and on-device lets us maintain privacy, while also remaining lightweight with low inference latency. We deployed the model on an iPhone 13 Pro and achieved an inference latency of ~50 ms per image. We used Apple's CoreML [[10](https://developer.apple.com/documentation/coreml)] framework to convert and optimize our model for iOS deployment.
+Motivated by accesibility screen readers, our goal was to create an on-device near real-time image scene description model to run on hardware that is available to everyone. Running our model offline and on-device lets us maintain privacy, while also remaining lightweight with low inference latency. We deployed the model on an iPhone 13 Pro and achieved an inference latency of ~50 ms per image. We used Apple's CoreML [[10](https://developer.apple.com/documentation/coreml)] framework to convert and optimize our model for iOS deployment.
 
 
 ::: {#fig-living-on-the-edge layout-ncol=1}
