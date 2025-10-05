@@ -47,7 +47,7 @@ about:
 Hi there :wave:! I'm an Applied Scientist at Microsoft AI. My interests are in building efficient and interpretable machine learning systems. I earned my Master's degree at the [Language Technologies Institute, Carnegie Mellon University](https://www.lti.cs.cmu.edu/) and my Bachelor's degree in Computer Science and Engineering at [PES University](https://cs.pes.edu/). You can find my [projects](projects.qmd), my [publications](pubs.qmd) and my [resume](resumes/Resume_VibhaMasti.pdf).
 
 
-Currently, my team builds training and evaluation pipelines for ads conversion modeling. I work on distributed data pipelines, large-scale daily re-training, counterfactual modeling, analyzing prediction fluctuations and predicting model behavior. I also enjoy building software frameworks and methods that push efficiency further. Some keywords I'm a fan of: efficiency, interpretability, deep learning systems.
+Currently, I work on training and evaluation pipelines for ads conversion modeling, distributed data pipelines, large-scale daily re-training, counterfactual modeling, analyzing prediction fluctuations and predicting model behavior. I also enjoy building deep learning systems frameworks and methods that push efficiency further. In the past, I have worked on reinforcement learning, semi-supervised learning, few-shot learning, code generation, and music generation.
 
 
 <!-- </div> -->
