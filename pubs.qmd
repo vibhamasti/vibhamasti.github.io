@@ -132,3 +132,13 @@ Hrishit Chaudhuri\*, **Vibha Masti\***, Vishruth Veerendranath\*, S Natarajan \
   }
   ```
 </div>
+
+#### Manuscripts Under Review/in Preparation
+
+**StopAndGrow: Accelerating Large Language Model Pre-training by Growing Intermediate Checkpoints** \
+**Vibha Masti**, Xinyue Liu, Ananya Jha, Emma Strubell \
+<a href="manuscripts/StopAndGrow.pdf" type="button" class="btn btn-outline-primary btn-sm">paper</a>
+
+**Does Quantization impact Mathematical Reasoning in Language Models?** \
+**Vibha Masti**, Aryan Singhal, Jaydev Jangiti, Lindia Tjuatja \
+<a href="manuscripts/MathematicalReasoning.pdf" type="button" class="btn btn-outline-primary btn-sm">paper</a>
