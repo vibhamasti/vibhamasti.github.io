@@ -27,6 +27,9 @@ about:
     - icon: medium
       text: medium
       href: https://medium.com/@vibhamasti
+    - icon: github
+      text: github
+      href: https://github.com/vibhamasti
     - icon: mortarboard-fill
       text: google scholar
       href: https://scholar.google.com/citations?user=v7O9-RgAAAAJ&hl=en
