@@ -1,5 +1,11 @@
 [
   {
+    "listing": "/blog.html",
+    "items": [
+      "/blog/chai-crumble-cake/index.html"
+    ]
+  },
+  {
     "listing": "/notes.html",
     "items": [
       "/notes/cs352/index.html",
@@ -34,7 +40,6 @@
   {
     "listing": "/projects.html",
     "items": [
-      "/projects/metric/index.html",
       "/projects/metal/index.html",
       "/projects/ondevice/index.html"
     ]
