@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.38">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Vibha Masti">
+<meta name="dcterms.date" content="2024-05-01">
+<meta name="description" content="Investigating whether diffusion models internally represent semantic concepts (objects, colors, counts, positions) well enough to serve as their own evaluation metric">
+
+<title>Semantic Separation in Image Diffusion Models – Vibha Masti</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../profile.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-4397f41838bf6696a92fdfbed53ac40c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../../styles.scss">
+<meta name="twitter:title" content="Semantic Separation in Image Diffusion Models – Vibha Masti">
+<meta name="twitter:description" content="Investigating whether diffusion models internally represent semantic concepts (objects, colors, counts, positions) well enough to serve as their own evaluation metric">
+<meta name="twitter:image" content="sd15_embeddings.png">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body class="nav-fixed fullcontent quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Vibha Masti</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../blog.html"> 
+<span class="menu-text">Blog</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../notes.html"> 
+<span class="menu-text">Vibha’s Notes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../projects.html"> 
+<span class="menu-text">Projects</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../pubs.html"> 
+<span class="menu-text">Publications</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../teaching.html"> 
+<span class="menu-text">Teaching</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../resumes/Resume_VibhaMasti.pdf"> 
+<span class="menu-text">Resume</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Semantic Separation in Image Diffusion Models</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">research</div>
+    <div class="quarto-category">ml</div>
+    <div class="quarto-category">computer vision</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    <em>Investigating whether diffusion models internally represent semantic concepts (objects, colors, counts, positions) well enough to serve as their own evaluation metric</em>
+  </div>
+</div>
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Vibha Masti </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">May 1, 2024</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p><em>Collaborator: Yingshang Chang · Advisor: <a href="https://talkingtorobots.com/yonatanbisk.html">Prof.&nbsp;Yonatan Bisk</a></em></p>
+<p>This was an independent research exploration I worked on with Yingshang Chang, advised by Prof.&nbsp;Yonatan Bisk at CMU’s Language Technologies Institute. Below is the report in my own words, ported over from the draft.</p>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>Developments in text-to-image generation models have shown very impressive results in creative image generation (Betker et al., 2023). While the qualitative results of these models are quite impressive, the community lacks a rigorous evaluation criterion that assesses a model’s alignment with text prompts. For example, while most models are quite good at generating images containing different objects (e.g.&nbsp;<em>a photo of a cow</em>), many models tend to struggle with the positioning of objects in images (e.g.&nbsp;<em>on the left</em> vs <em>right</em>) or in changes to agency (e.g.&nbsp;<em>man biting a dog</em>). In some sense, this result is intuitive as it has been shown that word order matters very little in transformers (Sinha et al., 2021), meaning that two sentences with the exact same words ordered differently likely have the same meaning to most language models.</p>
+<p>Existing common practices in the automatic evaluation of image-text alignment leverage the encoding space of another image understanding model such as CLIP (Radford et al., 2021; Hessel et al., 2021). However, intuitively speaking, since image generation models are typically capable of producing images belonging to various visual categories (e.g.&nbsp;object class, color, relations), they must also be able to represent these distinct categories in their own encoding spaces. In this work, we aim to find such intrinsic representations within diffusion models that can accurately reflect semantic separation along different axes – objects, colors, counting, and relative positioning – and see how well they align to the model’s true ability to produce these distinct classes.</p>
+<p>There arise two natural questions about the represented semantic knowledge: 1) where to locate such knowledge and 2) the ease of extracting such knowledge. Answering these questions will bring practical benefits: 1) the evaluation of generative models will no longer rely on an outside model’s encoding space, becoming more faithful to the generative model’s internal space, and 2) discovering knowledge-containing vectors in a generative model will facilitate knowledge transfer from generative to discriminative vision tasks.</p>
+</section>
+<section id="related-work" class="level2">
+<h2 class="anchored" data-anchor-id="related-work">Related Work</h2>
+<section id="text-to-image-generation" class="level3">
+<h3 class="anchored" data-anchor-id="text-to-image-generation">Text-to-Image Generation</h3>
+<p>There have been tremendous improvements in the abilities of text-guided image generation models since their inception. Early text-conditioned image generation models utilized VAEs (Kingma &amp; Welling, 2013; Mansimov et al., 2015) and GANs (Goodfellow et al., 2020). More recent approaches have explored multimodal Transformers (Vaswani et al., 2017), taking inspiration from large language models (Ramesh et al., 2021; Yu et al., 2022; Gafni et al., 2022; Chang et al., 2023; Kenton &amp; Toutanova, 2019; Yu et al., 2023; Chang et al., 2022; Yasunaga et al., 2022; Yu et al., 2023; Kim et al., 2021; Dayma et al., 2021).</p>
+<p>Diffusion models, based on principles of thermodynamics (Ho et al., 2020; Sohl-Dickstein et al., 2015), have demonstrated incredible high-quality creative image generation abilities (Nichol et al., 2022; Saharia et al., 2022; Ramesh et al., 2022; Kakao Brain, 2022; Betker et al., 2023; Rombach et al., 2022; Rampas et al., 2023; DeepFloyd, 2023).</p>
+</section>
+<section id="evaluation-of-text-to-image-models" class="level3">
+<h3 class="anchored" data-anchor-id="evaluation-of-text-to-image-models">Evaluation of Text-to-Image Models</h3>
+<p>Evaluating synthetically generated images with human evaluators is the still gold standard for most multimodal generative models. Automated quantitative evaluation of text-to-image models still remains a challenge. Typically, automated evaluations are performed by measuring one or more of the following – image-text alignment, image quality, and text-text alignment (with an auxiliary image captioning model for the generated images).</p>
+<section id="image-quality" class="level4">
+<h4 class="anchored" data-anchor-id="image-quality">Image Quality</h4>
+<p>Two popular metrics for measuring generated image quality are Inception Score (IS) (Salimans et al., 2016) and Fréchet Inception Distance (FID) (Heusel et al., 2017). The Classification Accuracy Score (CAS) (Ravuri &amp; Vinyals, 2019) metric uses synthetically generated images to train a ResNet (He et al., 2016) image classification model, and performs inference on real images. CLIP Maximum Mean Discrepancy (CMMD) (Jayasumana et al., 2023) was proposed as an alternative metric to FID that can better capture generated image quality.</p>
+</section>
+<section id="image-text-alignment" class="level4">
+<h4 class="anchored" data-anchor-id="image-text-alignment">Image-Text Alignment</h4>
+<p>Xu et al.&nbsp;(2018) proposed to use R-precision to evaluate retrieval results. Zhang et al.&nbsp;(2018) defined a metric called Visual-Semantic Similarity (VS Similarity), which used a trained a visual-semantic embedding model to measure the distance between input text and generated images. Hinz et al.&nbsp;(2020) introduced Semantic Object Accuracy (SOA), which uses a pre-trained object detection model to check if objects mentioned in the caption are present in the generated image. CLIP-Score (Hessel et al., 2021) uses CLIP (Radford et al., 2021) to compute the cosine similarity between the text prompt’s encoding and the generated image’s encoding. However, the metric has proven ineffective at counting (Radford et al., 2021), performing better than chance at the Winoground (Thrush et al., 2022) task, and distinguishing visually dissimilar image pairs (Tong et al., 2024).</p>
+</section>
+</section>
+</section>
+<section id="experiments" class="level2">
+<h2 class="anchored" data-anchor-id="experiments">Experiments</h2>
+<p>We ran experiments to try and find a representative intrinsic indicator of semantic separation in open latent diffusion models in the stable diffusion (Rombach et al., 2022) family. We explore different types of separation by varying the following in prompts – objects, colors, counts, positioning. We detail each experiment and its findings below.</p>
+<div id="fig-embeddings" class="quarto-layout-panel">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-embeddings-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="sd15_embeddings.png" class="img-fluid figure-img" alt="Cross-attention downblock embeddings for SDv1.5 midway through diffusion, colored by object class"></p>
+<figcaption>SDv1.5</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="sd21_embeddings.png" class="img-fluid figure-img" alt="Cross-attention downblock embeddings for SDv2.1 midway through diffusion, colored by object class"></p>
+<figcaption>SDv2.1</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-embeddings-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: CAD embeddings formed midway through the diffusion process
+</figcaption>
+</figure>
+</div>
+<section id="final-denoised-latent-fdl" class="level3">
+<h3 class="anchored" data-anchor-id="final-denoised-latent-fdl">Final Denoised Latent (FDL)</h3>
+<p>This approach involved comparing the final latent vector after all denoising diffusion steps for a given prompt to the latent vector of a real image passed through the image encoder. For each prompt-image pair, the prompt is passed into the diffusion pipeline to generate a latent vector called <span class="math inline">\(z_{gen}\)</span>. A corresponding real image for the prompt is passed through the image encoder of the diffusion pipeline to obtain <span class="math inline">\(z_{real}\)</span>. The real images were obtained from a CIFAR-10 subset (object) and GPT-4 (color, count, position). We then computed the cosine similarity score between the generated image latent and the real image latent.</p>
+<p>For each of the variation types – objects, colors, counts, and position – appropriate prompts for image generation were constructed as shown in the table below. To measure semantic separation, we generated latents for a contrasting pair of image prompt variations (eg: <em>“A photo of a bird”</em> and <em>“A photo of a frog”</em>) and computed pairwise cosine similarity scores from the Cartesian product <span class="math inline">\(\{z_{gen0}, z_{gen1}\} \times \{z_{real0}, z_{real1}\}\)</span>.</p>
+<p>We defined our metric, which we call the ratio score, as shown in the equation below. The <span class="math inline">\(+ 2\)</span> terms are to normalize the scores to be in the <span class="math inline">\([0, 1]\)</span> range. A score <span class="math inline">\(&gt; 1\)</span> indicates that the matching pairs of generated and real latents are closer than the contrasting pairs (indicating that the representation is good), and a score <span class="math inline">\(&lt; 1\)</span> indicates that the contrasting pairs of generated and real latents are closer than the matching pairs (indicating that the representation is not good).</p>
+<table class="caption-top table">
+<caption>Variations along different axes (CIFAR-10 classes for objects)</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Type</th>
+<th>Prompt template</th>
+<th>Variations of <code>&lt;c&gt;</code></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Object</td>
+<td>A photo of a <code>&lt;c&gt;</code></td>
+<td>airplane, automobile, bird, cat, deer, dog, frog, horse, ship, truck</td>
+</tr>
+<tr class="even">
+<td>Color</td>
+<td>A photo of a <code>&lt;c&gt;</code> ball</td>
+<td>red, green, blue, yellow, purple, orange, brown, pink, black, white</td>
+</tr>
+<tr class="odd">
+<td>Count</td>
+<td>A photo of <code>&lt;c&gt;</code> ball(s)</td>
+<td>one, two, three, four, five</td>
+</tr>
+<tr class="even">
+<td>Position</td>
+<td>A photo of a ball <code>&lt;c&gt;</code> a bat</td>
+<td>to the left of, to the right of, on top of, below, in front of, behind</td>
+</tr>
+</tbody>
+</table>
+<p><span class="math display">\[
+\dfrac{\text{sim}(z_{gen0}, z_{real0}) + \text{sim}(z_{gen1}, z_{real1}) + 2}{\text{sim}(z_{gen0}, z_{real1}) + \text{sim}(z_{gen1}, z_{real0}) + 2 + \epsilon}
+\]</span></p>
+</section>
+<section id="diffusion-classifier-noise-dcn" class="level3">
+<h3 class="anchored" data-anchor-id="diffusion-classifier-noise-dcn">Diffusion Classifier Noise (DCN)</h3>
+<p>Using the idea behind the diffusion classifier (Li et al., 2023), we compared the noise prediction errors of a contrastive pair of prompts from the table above. Similar to the FDL ratio score, this measure also requires real images. For a chosen image of a certain variation, a positive prompt and negative prompt are created (eg: for an image of a violin, positive: <em>“A photo of a violin”</em> and negative: <em>“A photo of a hammer”</em>). Each image is noised and then conditionally denoised on both the positive and negative prompts. The average noise prediction errors on both prompts over all denoising timesteps is calculated for a single image and the predicted class is the class with a lower error. The DC score of the model is determined as the accuracy of predicting the positive class for all images in the real image dataset.</p>
+</section>
+<section id="cross-attention-downblock-cad" class="level3">
+<h3 class="anchored" data-anchor-id="cross-attention-downblock-cad">Cross-Attention Downblock (CAD)</h3>
+<p>Unlike the FDL and DCN approaches, this approach does not require any corresponding real images. For every prompt variation in the table above, the intermediate cross-attention downblock embedding vectors (embeddings of the last downblock layer in the U-Net) are stored and flattened, and the quality of the formed clusters are assessed. More specifically, for each variation in every type, 100 image generation processes are run and the cross-attention downblock embeddings of 10 intermediate diffusion steps are stored. We look at the midway point of diffusion and use those embeddings.</p>
+<p>To measure a notion of semantic separation among classes, we compute the mean Silhouette coefficient (Rousseeuw, 1987) of the clusters. A value of 1 indicates good separation of clusters, and a value of -1 indicates poor cluster assignment. A value close to 0 indicates overlapping clusters.</p>
+</section>
+</section>
+<section id="results" class="level2">
+<h2 class="anchored" data-anchor-id="results">Results</h2>
+<p>The values of the Final Denoised Latent Ratio (FDL), Diffusion Classifier Noise (DCN), and Cross-Attention Downblock Silhouette (CAD) scores are obtained for the concepts of objects in the table below.</p>
+<table class="caption-top table">
+<caption>Average scores on object concepts</caption>
+<thead>
+<tr class="header">
+<th>Model</th>
+<th>FDL</th>
+<th>DCN</th>
+<th>CAD</th>
+<th>CLIP-S</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>SD-1.1</td>
+<td>1.010</td>
+<td>0.527</td>
+<td>0.008</td>
+<td>0.285</td>
+</tr>
+<tr class="even">
+<td>SD-1.2</td>
+<td>1.025</td>
+<td>0.555</td>
+<td>0.005</td>
+<td>0.288</td>
+</tr>
+<tr class="odd">
+<td>SD-1.3</td>
+<td>1.021</td>
+<td>0.570</td>
+<td>0.008</td>
+<td>0.287</td>
+</tr>
+<tr class="even">
+<td>SD-1.4</td>
+<td>1.020</td>
+<td>0.539</td>
+<td>0.010</td>
+<td>0.287</td>
+</tr>
+<tr class="odd">
+<td>SD-1.5</td>
+<td>1.011</td>
+<td>0.541</td>
+<td>0.010</td>
+<td>0.285</td>
+</tr>
+<tr class="even">
+<td>SD-2.0</td>
+<td>1.012</td>
+<td>0.583</td>
+<td>0.004</td>
+<td>0.287</td>
+</tr>
+<tr class="odd">
+<td>SD-2.1</td>
+<td>1.019</td>
+<td>0.526</td>
+<td>0.013</td>
+<td>0.286</td>
+</tr>
+</tbody>
+</table>
+<p>After inspecting the proposed measures of contrastive comparison, we find that there is no clear separation of object/color/count/position concepts in any of these latent spaces. Looking at each class more closely, we see that for the object axis, the cross-attention downblock embeddings show some meaningful overlaps for certain class clusters. As seen in the figure above, we see clusters formed out of [{ship, truck, automobile, airplane}, {horse, deer}, {bird, frog}, {cat, dog}].</p>
+</section>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+<ol type="1">
+<li><p>Betker, J., Goh, G., Jing, L., et al.&nbsp;(2023). Improving image generation with better captions. <em>Computer Science</em>.</p></li>
+<li><p>Sinha, K., Jia, R., Hupkes, D., Pineau, J., Williams, A., &amp; Kiela, D. (2021). <a href="https://aclanthology.org/2021.emnlp-main.230/">Masked Language Modeling and the Distributional Hypothesis: Order Word Matters Pre-training for Little</a>. In Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing.</p></li>
+<li><p>Radford, A., Kim, J. W., Hallacy, C., et al.&nbsp;(2021). <a href="https://arxiv.org/abs/2103.00020">Learning Transferable Visual Models From Natural Language Supervision</a>. In International Conference on Machine Learning.</p></li>
+<li><p>Hessel, J., Holtzman, A., Forbes, M., Le Bras, R., &amp; Choi, Y. (2021). <a href="https://arxiv.org/abs/2104.08718">CLIPScore: A Reference-free Evaluation Metric for Image Captioning</a>. In Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing.</p></li>
+<li><p>Kingma, D. P., &amp; Welling, M. (2013). <a href="https://arxiv.org/abs/1312.6114">Auto-Encoding Variational Bayes</a>. arXiv preprint arXiv:1312.6114.</p></li>
+<li><p>Mansimov, E., Parisotto, E., Ba, J. L., &amp; Salakhutdinov, R. (2016). <a href="https://arxiv.org/abs/1511.02793">Generating Images from Captions with Attention</a>. In International Conference on Learning Representations (ICLR).</p></li>
+<li><p>Goodfellow, I., Pouget-Abadie, J., Mirza, M., et al.&nbsp;(2020). <a href="https://arxiv.org/abs/1406.2661">Generative Adversarial Networks</a>. Communications of the ACM, 63(11), 139-144.</p></li>
+<li><p>Vaswani, A., Shazeer, N., Parmar, N., et al.&nbsp;(2017). <a href="https://arxiv.org/abs/1706.03762">Attention Is All You Need</a>. Advances in Neural Information Processing Systems, 30.</p></li>
+<li><p>Ramesh, A., Pavlov, M., Goh, G., et al.&nbsp;(2021). <a href="https://arxiv.org/abs/2102.12092">Zero-Shot Text-to-Image Generation</a>. In International Conference on Machine Learning.</p></li>
+<li><p>Yu, J., Xu, Y., Koh, J. Y., et al.&nbsp;(2022). <a href="https://arxiv.org/abs/2206.10789">Scaling Autoregressive Models for Content-Rich Text-to-Image Generation</a>. Transactions on Machine Learning Research.</p></li>
+<li><p>Gafni, O., Polyak, A., Ashual, O., Sheynin, S., Parikh, D., &amp; Taigman, Y. (2022). <a href="https://arxiv.org/abs/2203.13131">Make-A-Scene: Scene-Based Text-to-Image Generation with Human Priors</a>. In European Conference on Computer Vision.</p></li>
+<li><p>Chang, H., Zhang, H., Barber, J., et al.&nbsp;(2023). <a href="https://arxiv.org/abs/2301.00704">Muse: Text-To-Image Generation via Masked Generative Transformers</a>. In Proceedings of the 40th International Conference on Machine Learning (ICML).</p></li>
+<li><p>Devlin, J., &amp; Toutanova, K. (2019). <a href="https://arxiv.org/abs/1810.04805">BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding</a>. In Proceedings of NAACL-HLT.</p></li>
+<li><p>Yu, L., Shi, B., Pasunuru, R., et al.&nbsp;(2023). <a href="https://arxiv.org/abs/2309.02591">Scaling Autoregressive Multi-Modal Models: Pretraining and Instruction Tuning</a>. arXiv preprint arXiv:2309.02591.</p></li>
+<li><p>Chang, H., Zhang, H., Jiang, L., Liu, C., &amp; Freeman, W. T. (2022). <a href="https://arxiv.org/abs/2202.04200">MaskGIT: Masked Generative Image Transformer</a>. In The IEEE Conference on Computer Vision and Pattern Recognition (CVPR).</p></li>
+<li><p>Yasunaga, M., Aghajanyan, A., Shi, W., et al.&nbsp;(2022). <a href="https://arxiv.org/abs/2211.12561">Retrieval-Augmented Multimodal Language Modeling</a>. arXiv preprint arXiv:2211.12561.</p></li>
+<li><p>Kim, S., Cho, S., Kim, C., Lee, D., &amp; Baek, W. (2021). <a href="https://github.com/kakaobrain/minDALL-E">minDALL-E on Conceptual Captions</a>.</p></li>
+<li><p>Dayma, B., Patil, S., Cuenca, P., et al.&nbsp;(2021). <a href="https://github.com/borisdayma/dalle-mini">DALL·E Mini</a>.</p></li>
+<li><p>Ho, J., Jain, A., &amp; Abbeel, P. (2020). <a href="https://arxiv.org/abs/2006.11239">Denoising Diffusion Probabilistic Models</a>. Advances in Neural Information Processing Systems, 33, 6840-6851.</p></li>
+<li><p>Sohl-Dickstein, J., Weiss, E., Maheswaranathan, N., &amp; Ganguli, S. (2015). <a href="https://arxiv.org/abs/1503.03585">Deep Unsupervised Learning using Nonequilibrium Thermodynamics</a>. In International Conference on Machine Learning.</p></li>
+<li><p>Nichol, A. Q., Dhariwal, P., Ramesh, A., et al.&nbsp;(2022). <a href="https://arxiv.org/abs/2112.10741">GLIDE: Towards Photorealistic Image Generation and Editing with Text-Guided Diffusion Models</a>. In International Conference on Machine Learning.</p></li>
+<li><p>Saharia, C., Chan, W., Saxena, S., et al.&nbsp;(2022). <a href="https://arxiv.org/abs/2205.11487">Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding</a>. Advances in Neural Information Processing Systems, 35, 36479-36494.</p></li>
+<li><p>Ramesh, A., Dhariwal, P., Nichol, A., Chu, C., &amp; Chen, M. (2022). <a href="https://arxiv.org/abs/2204.06125">Hierarchical Text-Conditional Image Generation with CLIP Latents</a>. arXiv preprint arXiv:2204.06125.</p></li>
+<li><p>Lee, D., Kim, J., Choi, J., Kim, J., Byeon, M., Baek, W., &amp; Kim, S. (2022). <a href="https://github.com/kakaobrain/karlo">Karlo-v1.0.alpha on COYO-100M and CC15M</a>.</p></li>
+<li><p>Rombach, R., Blattmann, A., Lorenz, D., Esser, P., &amp; Ommer, B. (2022). <a href="https://arxiv.org/abs/2112.10752">High-Resolution Image Synthesis with Latent Diffusion Models</a>. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition.</p></li>
+<li><p>Rampas, D., Pernias, P., &amp; Aubreville, M. (2023). <a href="https://arxiv.org/abs/2211.07292">A Novel Sampling Scheme for Text- and Image-Conditional Image Synthesis in Quantized Latent Spaces</a>. arXiv preprint arXiv:2211.07292.</p></li>
+<li><p>DeepFloyd. (2024). <a href="https://github.com/deep-floyd/IF">DeepFloyd-IF</a>.</p></li>
+<li><p>Salimans, T., Goodfellow, I., Zaremba, W., Cheung, V., Radford, A., &amp; Chen, X. (2016). <a href="https://arxiv.org/abs/1606.03498">Improved Techniques for Training GANs</a>. Advances in Neural Information Processing Systems, 29.</p></li>
+<li><p>Heusel, M., Ramsauer, H., Unterthiner, T., Nessler, B., &amp; Hochreiter, S. (2017). <a href="https://arxiv.org/abs/1706.08500">GANs Trained by a Two Time-Scale Update Rule Converge to a Local Nash Equilibrium</a>. Advances in Neural Information Processing Systems, 30.</p></li>
+<li><p>Ravuri, S., &amp; Vinyals, O. (2019). <a href="https://arxiv.org/abs/1905.10887">Classification Accuracy Score for Conditional Generative Models</a>. Advances in Neural Information Processing Systems, 32.</p></li>
+<li><p>He, K., Zhang, X., Ren, S., &amp; Sun, J. (2016). <a href="https://arxiv.org/abs/1512.03385">Deep Residual Learning for Image Recognition</a>. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition.</p></li>
+<li><p>Jayasumana, S., Ramalingam, S., Veit, A., Glasner, D., Chakrabarti, A., &amp; Kumar, S. (2023). <a href="https://arxiv.org/abs/2401.09603">Rethinking FID: Towards a Better Evaluation Metric for Image Generation</a>. arXiv preprint arXiv:2401.09603.</p></li>
+<li><p>Xu, T., Zhang, P., Huang, Q., Zhang, H., Gan, Z., Huang, X., &amp; He, X. (2018). <a href="https://arxiv.org/abs/1711.10485">AttnGAN: Fine-Grained Text to Image Generation with Attentional Generative Adversarial Networks</a>. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition.</p></li>
+<li><p>Zhang, Z., Xie, Y., &amp; Yang, L. (2018). <a href="https://arxiv.org/abs/1802.09178">Photographic Text-to-Image Synthesis with a Hierarchically-nested Adversarial Network</a>. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition.</p></li>
+<li><p>Hinz, T., Heinrich, S., &amp; Wermter, S. (2020). <a href="https://arxiv.org/abs/1910.13321">Semantic Object Accuracy for Generative Text-to-Image Synthesis</a>. IEEE Transactions on Pattern Analysis and Machine Intelligence, 44(3), 1552-1565.</p></li>
+<li><p>Thrush, T., Jiang, R., Bartolo, M., Singh, A., Williams, A., Kiela, D., &amp; Ross, C. (2022). <a href="https://arxiv.org/abs/2204.03162">Winoground: Probing Vision and Language Models for Visio-Linguistic Compositionality</a>. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition.</p></li>
+<li><p>Tong, S., Liu, Z., Zhai, Y., Ma, Y., LeCun, Y., &amp; Xie, S. (2024). <a href="https://arxiv.org/abs/2401.06209">Eyes Wide Shut? Exploring the Visual Shortcomings of Multimodal LLMs</a>. arXiv preprint arXiv:2401.06209.</p></li>
+<li><p>Li, A. C., Prabhudesai, M., Duggal, S., Brown, E., &amp; Pathak, D. (2023). <a href="https://arxiv.org/abs/2303.16203">Your Diffusion Model is Secretly a Zero-Shot Classifier</a>. In Proceedings of the IEEE/CVF International Conference on Computer Vision.</p></li>
+<li><p>Rousseeuw, P. J. (1987). <a href="https://www.sciencedirect.com/science/article/pii/0377042787901257">Silhouettes: A Graphical Aid to the Interpretation and Validation of Cluster Analysis</a>. Journal of Computational and Applied Mathematics, 20, 53-65.</p></li>
+<li><p>Krizhevsky, A., &amp; Hinton, G. (2009). <a href="https://www.cs.toronto.edu/~kriz/learning-features-2009-TR.pdf">Learning Multiple Layers of Features from Tiny Images</a>.</p></li>
+<li><p>Yu, L., Lezama, J., Gundavarapu, N. B., et al.&nbsp;(2024). <a href="https://arxiv.org/abs/2310.05737">Language Model Beats Diffusion – Tokenizer is Key to Visual Generation</a>. In International Conference on Learning Representations (ICLR).</p></li>
+</ol>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Copyright 2026, Vibha Masti</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>This website was made with ❤ using <a href="https://quarto.org/">Quarto</a>.</p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

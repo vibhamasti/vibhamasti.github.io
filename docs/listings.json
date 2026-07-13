@@ -41,6 +41,7 @@
     "listing": "/projects.html",
     "items": [
       "/projects/metal/index.html",
+      "/projects/semantic-diffusion/index.html",
       "/projects/ondevice/index.html"
     ]
   }
