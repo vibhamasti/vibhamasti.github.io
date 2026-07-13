@@ -16,10 +16,10 @@ categories: [mech, sem2]
 
 | Unit              | Syllabus                         |       Vibha's Notes                |
 | :---------------- | -------------------------------- | ---------------------------------- |
-| Unit 1            |  TBA  | [Energy and Sources of Energy.pdf](01%20Energy%20and%20Sources%20of%20Energy%20-%20Vibha.pdf) |
-| Unit 2            | TBA | [Thermal Systems.pdf](02%20Thermal%20Systems%20-%20Vibha.pdf) |
-| Unit 3            | TBA  | [Engineering Materials (Partial).pdf](03%20Engineering%20Materials%20(Parts)%20-%20Vibha.pdf) |
-| Unit 4            | TBA | [Power Transmission.pdf](04%20Power%20Transmission%20-%20Vibha.pdf)  |
+| Unit 1            |  Energy and Sources of Energy  | [Energy and Sources of Energy.pdf](01%20Energy%20and%20Sources%20of%20Energy%20-%20Vibha.pdf) |
+| Unit 2            | Thermal Systems | [Thermal Systems.pdf](02%20Thermal%20Systems%20-%20Vibha.pdf) |
+| Unit 3            | Engineering Materials  | [Engineering Materials (Partial).pdf](03%20Engineering%20Materials%20(Parts)%20-%20Vibha.pdf) |
+| Unit 4            | Power Transmission | [Power Transmission.pdf](04%20Power%20Transmission%20-%20Vibha.pdf)  |
 | Unit 5            | TBA | Sorry, no notes :confused: |
 
 

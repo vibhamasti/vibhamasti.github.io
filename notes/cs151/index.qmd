@@ -16,11 +16,11 @@ categories: [cs, sem2]
 
 | Unit              | Syllabus                         |       Vibha's Notes                |
 | :---------------- | -------------------------------- | ---------------------------------- |
-| Unit 1            |  TBA  | [Unit 1 - Vibha.pdf](Unit%201%20-%20Vibha.pdf) |
-| Unit 2            | TBA | [Unit 2 - Vibha.pdf](Unit%202%20-%20Vibha.pdf) |
-| Unit 3            | TBA | [Unit 3 - Vibha.pdf](Unit%203%20-%20Vibha.pdf) |
+| Unit 1            |  Counting  | [Unit 1 - Vibha.pdf](Unit%201%20-%20Vibha.pdf) |
+| Unit 2            | Text processing, string manipulation | [Unit 2 - Vibha.pdf](Unit%202%20-%20Vibha.pdf) |
+| Unit 3            | Prioritized scheduling | [Unit 3 - Vibha.pdf](Unit%203%20-%20Vibha.pdf) |
 | Unit 4            | TBA | Sorry, no notes :confused: |
-| Unit 5            | TBA | [Unit 5 - Vibha.pdf](Unit%205%20-%20Vibha.pdf) |
+| Unit 5            | Unions, registers | [Unit 5 - Vibha.pdf](Unit%205%20-%20Vibha.pdf) |
 
 
 <br>

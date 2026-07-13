@@ -74,6 +74,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../../styles.scss">
 <meta name="twitter:title" content="UE19CS205 - Automata Formal Languages and Logic – Vibha Masti">
@@ -176,11 +205,6 @@ ul.task-list li input[type="checkbox"] {
 <section id="syllabus-and-class-notes" class="level4">
 <h4 class="anchored" data-anchor-id="syllabus-and-class-notes">Syllabus and Class Notes</h4>
 <table class="caption-top table">
-<colgroup>
-<col style="width: 20%">
-<col style="width: 38%">
-<col style="width: 40%">
-</colgroup>
 <thead>
 <tr class="header">
 <th style="text-align: left;">Unit</th>
@@ -191,23 +215,31 @@ ul.task-list li input[type="checkbox"] {
 <tbody>
 <tr class="odd">
 <td style="text-align: left;">Unit 1</td>
-<td>- Mathematical Preliminaries \</td>
-<td></td>
+<td>- Mathematical Preliminaries <br> - Basic Notations <br> - Deterministic Finite Acceptors (DFA) <br> - Non-Deterministic Finite Acceptors (NFA) <br> - <span class="math inline">\(\lambda\)</span>-NFA (Lambda-NFA) <br> - Equivalence of Deterministic and Non-deterministic <br> Finite Acceptors <br> - Reduction of the number of states in Finite Automata <br> (Minimization of DFA)</td>
+<td><a href="AFLL Unit 1.pdf">AFLL Unit 1.pdf</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Unit 2</td>
+<td>- Regular Expressions <br> - Connection between Regular Expressions Regular Languages <br> - Regular Grammars <br> - Properties of Regular Languages <br> - Pumping Lemma and identifying Non–Regular Languages</td>
+<td><a href="AFLL Unit 2.pdf">AFLL Unit 2.pdf</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Unit 3</td>
+<td>- Context Free Grammars <br> - Parsing and Ambiguity <br> - Formal Definitions of Pushdown Automata <br> - Deterministic Pushdown Automata <br> - Non Deterministic Pushdown Automata <br> - Methods for Transforming Grammars <br> - Two important Normal Forms <br> - A Membership Algorithm for Context–Free Languages <br> - Pushdown down Automata and Context Free Languages</td>
+<td><a href="AFLL Unit 3.pdf">AFLL Unit 3.pdf</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Unit 4</td>
+<td>- Properties of Context–Free Languages <br> - Pumping Lemma for Context–Free Languages <br> - The Standard Turing Machine <br> - Combining Turing Machine for Complicated Tasks <br> - Turing Thesis <br> - Recursive and Recursively Enumerable Languages <br> - Context Sensitive Grammar and Languages <br> - The Chomsky Hierarchy <br> - Some Problems that Cannot be solved by Turing Machine <br> - PCP <br> - Undecidable Problems for Recursively Enumerable Languages</td>
+<td><a href="AFLL Unit 4.pdf">AFLL Unit 4.pdf</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Unit 5</td>
+<td>- Propositional Logic: A very simple logic <br> - Syntax <br> - Semantics <br> - A simple knowledge Base <br> - A simple Inference procedure <br> - Inferences and Proofs <br> - Proof by resolution <br> - First Order Logic: Syntax and Semantics of First <br> order logic <br> - Numbers, Sets and Lists <br> - Example - The electronic circuit Domain</td>
+<td><a href="AFLL Unit 5.pdf">AFLL Unit 5.pdf</a></td>
 </tr>
 </tbody>
 </table>
-<pre><code>                  - Basic Notations \
-                  - Deterministic Finite Acceptors (DFA)  \
-                  - Non-Deterministic Finite Acceptors (NFA) \
-                  - $\lambda$-NFA (Lambda-NFA) \
-                  - Equivalence of Deterministic and Non-deterministic \
-                    Finite Acceptors \
-                  - Reduction of the number of states in Finite Automata \
-                    (Minimization of DFA)          | [AFLL Unit 1.pdf](AFLL%20Unit%201.pdf) |</code></pre>
-<div class="line-block">Unit 2 | - Regular Expressions &nbsp; - Connection between Regular Expressions Regular Languages &nbsp; - Regular Grammars &nbsp; - Properties of Regular Languages &nbsp; - Pumping Lemma and identifying Non–Regular Languages | <a href="AFLL Unit 2.pdf">AFLL Unit 2.pdf</a> |<br>
-Unit 3 | - Context Free Grammars &nbsp; - Parsing and Ambiguity &nbsp; - Formal Definitions of Pushdown Automata &nbsp; - Deterministic Pushdown Automata &nbsp; - Non Deterministic Pushdown Automata &nbsp; - Methods for Transforming Grammars &nbsp; - Two important Normal Forms &nbsp; - A Membership Algorithm for Context–Free Languages &nbsp; - Pushdown down Automata and Context Free Languages | <a href="AFLL Unit 3.pdf">AFLL Unit 3.pdf</a> |<br>
-Unit 4 | - Properties of Context–Free Languages &nbsp; - Pumping Lemma for Context–Free Languages &nbsp; - The Standard Turing Machine &nbsp; - Combining Turing Machine for Complicated Tasks &nbsp; - Turing Thesis &nbsp; - Recursive and Recursively Enumerable Languages &nbsp; - Context Sensitive Grammar and Languages &nbsp; - The Chomsky Hierarchy &nbsp; - Some Problems that Cannot be solved by Turing Machine &nbsp; - PCP &nbsp; - Undecidable Problems for Recursively Enumerable Languages | <a href="AFLL Unit 4.pdf">AFLL Unit 4.pdf</a> |<br>
-Unit 5 | - Propositional Logic: A very simple logic &nbsp; - Syntax &nbsp; - Semantics &nbsp; - A simple knowledge Base &nbsp; - A simple Inference procedure &nbsp; - Inferences and Proofs &nbsp; - Proof by resolution &nbsp; - First Order Logic: Syntax and Semantics of First &nbsp; order logic &nbsp; - Numbers, Sets and Lists &nbsp; - Example - The electronic circuit Domain | <a href="AFLL Unit 5.pdf">AFLL Unit 5.pdf</a> |</div>
 <p><br></p>
 </section>
 <section id="textbooks" class="level4">

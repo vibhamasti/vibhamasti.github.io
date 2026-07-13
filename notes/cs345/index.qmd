@@ -16,11 +16,11 @@ categories: [ml, cs, sem6]
 
 | Unit              | Syllabus                         |       Vibha's Notes                |
 | :---------------- | -------------------------------- | ---------------------------------- |
-| Unit 1            |  TBA  | [NAM Unit 1.pdf](NAM%20Unit%201.pdf) |
-| Unit 2            | TBA | [NAM Unit 2.pdf](NAM%20Unit%202.pdf) |
-| Unit 3            | TBA  | [Generative Models.pdf](Generative%20Models.pdf) |
-| Unit 4            | TBA | Sorry, no notes :confused: |
-| Unit 5            | TBA | Sorry, no notes :confused: |
+| Unit 1            | Graphical representation of network, Interaction patterns in a social graph, Centrality analysis | [NAM Unit 1.pdf](NAM%20Unit%201.pdf) |
+| Unit 2            | Measures of cohesion, Groups and substructures, Community detection | [NAM Unit 2.pdf](NAM%20Unit%202.pdf) |
+| Unit 3            | Generative models to mimic graph formation, Dynamics in a social graph | [Generative Models.pdf](Generative%20Models.pdf) |
+| Unit 4            | Traditional Machine Learning on Graph | Sorry, no notes :confused: |
+| Unit 5            | Graph Neural Network | Sorry, no notes :confused: |
 
 
 <br>

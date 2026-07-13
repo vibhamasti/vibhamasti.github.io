@@ -18,7 +18,7 @@ categories: [ece, sem1]
 | :---------------- | -------------------------------- | ---------------------------------- |
 | Unit 1            |  TBA  | Sorry, no notes :confused: |
 | Unit 2            | TBA | Sorry, no notes :confused: |
-| Unit 3            | TBA  | [Digital Electronics.pdf](ECE%20Unit%203%20Digital%20Electronics%20Vibha.pdf) |
+| Unit 3            | Digital Electronics  | [Digital Electronics.pdf](ECE%20Unit%203%20Digital%20Electronics%20Vibha.pdf) |
 | Unit 4            | TBA | Sorry, no notes :confused:  |
 | Unit 5            | TBA | Sorry, no notes :confused: |
 

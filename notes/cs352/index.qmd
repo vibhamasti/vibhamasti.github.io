@@ -16,11 +16,11 @@ categories: [systems, cs, sem6]
 
 | Unit              | Syllabus                         |       Vibha's Notes                |
 | :---------------- | -------------------------------- | ---------------------------------- |
-| Unit 1            |  TBA  | [CC Unit 1 - condensed.pdf](CC%20Unit%201%20-%20condensed.pdf) |
-| Unit 2            | TBA | [CC Unit 2.pdf](CC%20Unit%202.pdf) |
-| Unit 3            | TBA  | [CC Unit 3.pdf](CC%20Unit%203.pdf) |
-| Unit 4            | TBA | [CC Unit 4.pdf](CC%20Unit%204.pdf) |
-| Unit 5            | TBA | Sorry, no notes :confused: |
+| Unit 1            | Cloud Programming Models | [CC Unit 1 - condensed.pdf](CC%20Unit%201%20-%20condensed.pdf) |
+| Unit 2            | Virtualization | [CC Unit 2.pdf](CC%20Unit%202.pdf) |
+| Unit 3            | Distributed Storage | [CC Unit 3.pdf](CC%20Unit%203.pdf) |
+| Unit 4            | Cloud Controller | [CC Unit 4.pdf](CC%20Unit%204.pdf) |
+| Unit 5            | Performance, Scalability and Security in Cloud | Sorry, no notes :confused: |
 
 
 <br>

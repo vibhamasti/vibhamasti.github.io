@@ -16,12 +16,11 @@ categories: [chem, sem1]
 
 | Unit              | Syllabus                         |       Vibha's Notes                |
 | :---------------- | -------------------------------- | ---------------------------------- |
-| Unit 1            |  TBA  | [Molecular Spectroscopy.pdf](01%20Molecular%20Spectroscopy%20-%20Vibha.pdf) (scanned) |
-| Unit 2            | TBA | [Equilibrium.pdf](02%20Equilibrium%20-%20Vibha.pdf) (scanned) |
-| Unit 3            | TBA  | [Battery Technology.pdf](03%20Battery%20Technology%20-%20Vibha.pdf) (scanned) |
-| Unit 4            | TBA | [Corrosion.pdf](04%20Corrosion.pdf) |
-| Unit 5            | TBA | [Materials.pdf](05%20Materials.pdf) |
-
+| Unit 1            |  Molecular Spectroscopy  | [Molecular Spectroscopy.pdf](01%20Molecular%20Spectroscopy%20-%20Vibha.pdf) (scanned) |
+| Unit 2            | Equilibrium | [Equilibrium.pdf](02%20Equilibrium%20-%20Vibha.pdf) (scanned) |
+| Unit 3            | Battery Technology  | [Battery Technology.pdf](03%20Battery%20Technology%20-%20Vibha.pdf) (scanned) |
+| Unit 4            | Corrosion | [Corrosion.pdf](04%20Corrosion.pdf) |
+| Unit 5            | Materials | [Materials.pdf](05%20Materials.pdf) |
 
 <br>
 

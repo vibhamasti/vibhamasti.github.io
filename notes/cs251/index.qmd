@@ -16,47 +16,11 @@ categories: [algorithms, cs, sem4]
 
 | Unit              | Syllabus                         |       Vibha's Notes                |
 | :---------------- | -------------------------------- | ---------------------------------- |
-| Unit 1            |  - Algorithms \
-                        - Fundamentals of Algorithmic Problem Solving \
-                        - Analysis of Algorithm Efficiency \
-                        - Analysis Framework \
-                        - Asymptotic Notations and Basic Efficiency Classes \
-                        - Mathematical Analysis of Non-Recursive and Recursive Algorithms \
-                        - Algebraic structures - Rings, Fields and Groups | [DAA Unit 1.pdf](DAA%20Unit%201.pdf) |
-| Unit 2            | **Brute Force**: \
-                      - Selection Sort, Bubble Sort, Sequential Search \
-                      - Brute Force String Matching \
-                      - Exhaustive Search \
-                      **Divide-and-Conquer**: \
-                      - Master Theorem \
-                      - Merge Sort, Quick Sort \
-                      - Binary Search \
-                      - Binary Tree Traversals \
-                      - Multiplication of Large Integers \
-                      - Strassen’s Matrix Multiplication | [DAA Unit 2.pdf](DAA%20Unit%202.pdf) |
-| Unit 3            | **Decrease-and-Conquer**: \
-                      - Insertion sort, topological sort \
-                      - Algorithms for generating combinatorial objects \
-                      - Decrease by a constant factor algorithms \
-                      **Transform-and-Conquer**: \
-                      - Pre-sorting, heap sort \
-                      - Red-Black trees, 2-3 trees, B-trees  | [DAA Unit 3.pdf](DAA%20Unit%203.pdf) |
-| Unit 4            | **Space and Time Tradeoffs**: \
-                      - Sorting by Counting \
-                      - Input Enhancement in String Matching \
-                      - Horspool’s and Boyer-Moore Algorithms. \
-                      **Greedy Technique**: \
-                      - Prim’s Algorithm, Kruskal’s Algorithm and union-find algorithm \
-                      - Dijkstra’s Algorithm, Huffman Trees | [DAA Unit 4.pdf](DAA%20Unit%204.pdf) |
-| Unit 5            | **Limitations of Algorithm Power**: \
-                      - Lower-Bound Arguments, Decision Trees \
-                      - P, NP, and NP- Complete, NP-Hard Problems \
-                      **Coping with the Limitations of Algorithm Power**: \
-                      - Backtracking, Branch-and-Bound \
-                      **Dynamic Programming**: \
-                      - Computing a Binomial Coefficient \
-                      - The Knapsack Problem and Memory Functions \
-                      - Warshall’s and Floyd’s Algorithms | [DAA Unit 5.pdf](DAA%20Unit%205.pdf) |
+| Unit 1            |  - Algorithms <br> - Fundamentals of Algorithmic Problem Solving <br> - Analysis of Algorithm Efficiency <br> - Analysis Framework <br> - Asymptotic Notations and Basic Efficiency Classes <br> - Mathematical Analysis of Non-Recursive and Recursive Algorithms <br> - Algebraic structures - Rings, Fields and Groups | [DAA Unit 1.pdf](DAA%20Unit%201.pdf) |
+| Unit 2            | **Brute Force**: <br> - Selection Sort, Bubble Sort, Sequential Search <br> - Brute Force String Matching <br> - Exhaustive Search <br> **Divide-and-Conquer**: <br> - Master Theorem <br> - Merge Sort, Quick Sort <br> - Binary Search <br> - Binary Tree Traversals <br> - Multiplication of Large Integers <br> - Strassen’s Matrix Multiplication | [DAA Unit 2.pdf](DAA%20Unit%202.pdf) |
+| Unit 3            | **Decrease-and-Conquer**: <br> - Insertion sort, topological sort <br> - Algorithms for generating combinatorial objects <br> - Decrease by a constant factor algorithms <br> **Transform-and-Conquer**: <br> - Pre-sorting, heap sort <br> - Red-Black trees, 2-3 trees, B-trees  | [DAA Unit 3.pdf](DAA%20Unit%203.pdf) |
+| Unit 4            | **Space and Time Tradeoffs**: <br> - Sorting by Counting <br> - Input Enhancement in String Matching <br> - Horspool’s and Boyer-Moore Algorithms. <br> **Greedy Technique**: <br> - Prim’s Algorithm, Kruskal’s Algorithm and union-find algorithm <br> - Dijkstra’s Algorithm, Huffman Trees | [DAA Unit 4.pdf](DAA%20Unit%204.pdf) |
+| Unit 5            | **Limitations of Algorithm Power**: <br> - Lower-Bound Arguments, Decision Trees <br> - P, NP, and NP- Complete, NP-Hard Problems <br> **Coping with the Limitations of Algorithm Power**: <br> - Backtracking, Branch-and-Bound <br> **Dynamic Programming**: <br> - Computing a Binomial Coefficient <br> - The Knapsack Problem and Memory Functions <br> - Warshall’s and Floyd’s Algorithms | [DAA Unit 5.pdf](DAA%20Unit%205.pdf) |
 
 
 <br>

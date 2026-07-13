@@ -1,0 +1,9 @@
+---
+title: "Do Diffusion-Based Image Generation Models Understand Concepts?"
+author: "Vibha Masti"
+date: "Dec 2024"
+image: thumbnail.png
+location: "CMU 10-714: Deep Learning Systems"
+categories: ["ml systems", "ml"]
+description: "*Accelerated backend for a PyTorch clone optimized for Apple's M-series hardware with 80x matmul speedup over CPU*"
+---

@@ -16,31 +16,11 @@ categories: [systems, cs, sem3]
 
 | Unit              | Syllabus                         |       Vibha's Notes                |
 | :---------------- | -------------------------------- | ---------------------------------- |
-| Unit 1            |  - Introduction \
-                       - Boolean Functions \
-                       - Truth tables \
-                       - Boolean Algebra \
-                       - Identities \
-                       - Logic minimization \
-                       - K- Maps \
-                       - Adder/Subtractor, Overflow  | [DDCO Unit 1.pdf](DDCO%20Unit%201.pdf) |
-| Unit 2            | - Muxes, Decoders, Shifters \
-                      - Gate/Wire delays, Timing \
-                      - Latches, Flip-flops \
-                      - Synchronous logic design \
-                      - Finite State Machines| [DDCO Unit 2.pdf](DDCO%20Unit%202.pdf) |
-| Unit 3            | - FSM examples \
-                      - Counters, Memory array \
-                      - Carry-lookahead and Prefix adders | [DDCO Unit 3.pdf](DDCO%20Unit%203.pdf) |
-| Unit 4            | - Shift/add multiplier/divider \
-                      - Wallace tree multiplier \
-                      - Floating point \
-                      - Assembly Language, Machine Language | [DDCO Unit 4.pdf](DDCO%20Unit%204.pdf) |
-| Unit 5            | - Addressing Modes \
-                      - Performance analysis \
-                      - Single-cycle, Multi-cycle processor datapath and control \
-                      - Systolic array matrix multiply \
-                      - Overview of computer systems organization | [DDCO Unit 5.pdf](DDCO%20Unit%205.pdf) |
+| Unit 1            |  - Introduction <br> - Boolean Functions <br> - Truth tables <br> - Boolean Algebra <br> - Identities <br> - Logic minimization <br> - K- Maps <br> - Adder/Subtractor, Overflow  | [DDCO Unit 1.pdf](DDCO%20Unit%201.pdf) |
+| Unit 2            | - Muxes, Decoders, Shifters <br> - Gate/Wire delays, Timing <br> - Latches, Flip-flops <br> - Synchronous logic design <br> - Finite State Machines| [DDCO Unit 2.pdf](DDCO%20Unit%202.pdf) |
+| Unit 3            | - FSM examples <br> - Counters, Memory array <br> - Carry-lookahead and Prefix adders | [DDCO Unit 3.pdf](DDCO%20Unit%203.pdf) |
+| Unit 4            | - Shift/add multiplier/divider <br> - Wallace tree multiplier <br> - Floating point <br> - Assembly Language, Machine Language | [DDCO Unit 4.pdf](DDCO%20Unit%204.pdf) |
+| Unit 5            | - Addressing Modes <br> - Performance analysis <br> - Single-cycle, Multi-cycle processor datapath and control <br> - Systolic array matrix multiply <br> - Overview of computer systems organization | [DDCO Unit 5.pdf](DDCO%20Unit%205.pdf) |
 
 
 <br>

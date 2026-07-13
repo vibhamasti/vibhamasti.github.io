@@ -18,8 +18,8 @@ categories: [math, sem1]
 | :---------------- | -------------------------------- | ---------------------------------- |
 | Unit 1            |  Differential Calculus  | [Differential Calculus.pdf](01%20Differential%20Calculus%20-%20Vibha.pdf) |
 | Unit 2            | Partial Differentiation | [Partial Differentiation.pdf](02%20Partial%20Differentiation%20-%20Vibha.pdf) |
-| Unit 3            | TBA  | [Integral Calculus.pdf](03%20Integral%20Calculus%20-%20Vibha.pdf) |
-| Unit 4            | Integral Calculus | Sorry, no notes :confused: |
+| Unit 3            | Integral Calculus  | [Integral Calculus.pdf](03%20Integral%20Calculus%20-%20Vibha.pdf) |
+| Unit 4            | TBA | Sorry, no notes :confused: |
 | Unit 5            | Higher Order Differential Equations | [Higher Order DE.pdf](05%20Higher%20Order%20DE%20-%20Vibha.pdf) |
 
 

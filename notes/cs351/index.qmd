@@ -16,11 +16,11 @@ categories: [systems, cs, sem6]
 
 | Unit              | Syllabus                         |       Vibha's Notes                |
 | :---------------- | -------------------------------- | ---------------------------------- |
-| Unit 1            |  TBA  | [CD Unit 1.pdf](CD%20Unit%201.pdf) |
-| Unit 2            | TBA | [CD Unit 2.pdf](CD%20Unit%202.pdf) |
-| Unit 3            | TBA  | [CD Unit 3.pdf](CD%20Unit%203.pdf) |
-| Unit 4            | TBA | [CD Unit 4.pdf](CD%20Unit%204.pdf) |
-| Unit 5            | TBA | [CD Unit 5.pdf](CD%20Unit%205.pdf) |
+| Unit 1            | Compilers (Language Processing System, Lexical Analysis) | [CD Unit 1.pdf](CD%20Unit%201.pdf) |
+| Unit 2            | Syntax Analysis | [CD Unit 2.pdf](CD%20Unit%202.pdf) |
+| Unit 3            | Syntax-Directed Translation | [CD Unit 3.pdf](CD%20Unit%203.pdf) |
+| Unit 4            | Intermediate-Code Generation | [CD Unit 4.pdf](CD%20Unit%204.pdf) |
+| Unit 5            | Run-Time Environments | [CD Unit 5.pdf](CD%20Unit%205.pdf) |
 
 
 <br>

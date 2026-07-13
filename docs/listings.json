@@ -28,12 +28,13 @@
       "/notes/PH Extra Quantum Field Theory/index.html",
       "/notes/ma101/index.html",
       "/notes/ec101/index.html",
-      "/notes/cy101/index_test.html"
+      "/notes/cy101/index.html"
     ]
   },
   {
     "listing": "/projects.html",
     "items": [
+      "/projects/metric/index.html",
       "/projects/metal/index.html",
       "/projects/ondevice/index.html"
     ]

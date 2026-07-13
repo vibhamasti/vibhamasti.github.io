@@ -16,12 +16,11 @@ categories: [ml, cs, sem6]
 
 | Unit              | Syllabus                         |       Vibha's Notes                |
 | :---------------- | -------------------------------- | ---------------------------------- |
-| Unit 1            |  TBA  | [NLP Unit 1.pdf](NLP%20Unit%201.pdf) |
-| Unit 2            | TBA | [Lexical Semantics.pdf](Lexical%20Semantics.pdf) \
-                            [Vector Semantics](Vector%20Semantics.pdf) |
-| Unit 3            | TBA  | [Handling Sequences of Text.pdf](Handling%20Sequences%20of%20Text.pdf) |
-| Unit 4            | TBA | [CKY Parsing Example.pdf](CKY%20Parsing%20Example.pdf) |
-| Unit 5            | TBA | Sorry, no notes :confused: |
+| Unit 1            | Introduction | [NLP Unit 1.pdf](NLP%20Unit%201.pdf) |
+| Unit 2            | Language Models and Semantics (Lexical and Vector) | [Lexical Semantics.pdf](Lexical%20Semantics.pdf) <br> [Vector Semantics](Vector%20Semantics.pdf) |
+| Unit 3            | Handling sequences of text | [Handling Sequences of Text.pdf](Handling%20Sequences%20of%20Text.pdf) |
+| Unit 4            | Parsing - Disambiguating Structure | [CKY Parsing Example.pdf](CKY%20Parsing%20Example.pdf) |
+| Unit 5            | Natural Language Generation and Neural Network Methods | Sorry, no notes :confused: |
 
 
 <br>

@@ -16,7 +16,7 @@ categories: [ee, sem2]
 
 | Unit              | Syllabus                         |       Vibha's Notes                |
 | :---------------- | -------------------------------- | ---------------------------------- |
-| Unit 1            |  DC Circuits  | [DC Circuits.pdf](01%20DC%20Circuits%20-%20Vibha.pdf) |
+| Unit 1            | DC Circuits  | [DC Circuits.pdf](01%20DC%20Circuits%20-%20Vibha.pdf) |
 | Unit 2            | Single Phase AC | [Single Phase AC.pdf](02%20Single%20Phase%20AC%20-%20Vibha.pdf) |
 | Unit 3            | Three Phase AC  | [Three Phase AC.pdf](03%20Three%20Phase%20AC%20-%20Vibha.pdf) |
 | Unit 4            | Electrical Machines | [Electrical Machines.pdf](04%20Electrical%20Machines%20-%20Vibha.pdf) |

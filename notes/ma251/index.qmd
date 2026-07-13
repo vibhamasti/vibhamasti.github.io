@@ -16,11 +16,11 @@ categories: [ml, math, sem4]
 
 | Unit              | Syllabus                         |       Vibha's Notes                |
 | :---------------- | -------------------------------- | ---------------------------------- |
-| Unit 1            |  TBA  | [LA Unit 1.pdf](LA%20Unit%201.pdf) |
-| Unit 2            | TBA | [LA Unit 2.pdf](LA%20Unit%202.pdf) |
-| Unit 3            | TBA  | [LA Unit 3.pdf](LA%20Unit%203.pdf) |
-| Unit 4            | TBA | [LA Unit 4.pdf](LA%20Unit%204.pdf) |
-| Unit 5            | TBA | [LA Unit 5.pdf](LA%20Unit%205.pdf) |
+| Unit 1            | Matrices and Gaussian Elimination | [LA Unit 1.pdf](LA%20Unit%201.pdf) |
+| Unit 2            | Vector Spaces | [LA Unit 2.pdf](LA%20Unit%202.pdf) |
+| Unit 3            | Linear Transformations and Orthogonality | [LA Unit 3.pdf](LA%20Unit%203.pdf) |
+| Unit 4            | Orthogonalization, Eigen Values and Eigen Vectors | [LA Unit 4.pdf](LA%20Unit%204.pdf) |
+| Unit 5            | Singular Value Decomposition | [LA Unit 5.pdf](LA%20Unit%205.pdf) |
 
 
 <br>

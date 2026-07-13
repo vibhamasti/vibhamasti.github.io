@@ -7,9 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Vibha Masti">
-<meta name="dcterms.date" content="2019-12-01">
+<meta name="dcterms.date" content="2024-12-01">
+<meta name="description" content="Accelerated backend for a PyTorch clone optimized for Apple’s M-series hardware with 80x matmul speedup over CPU">
 
-<title>UE19CY101 - Engineering Chemistry – Vibha Masti</title>
+<title>Do Diffusion-Based Image Generation Models Understand Concepts? – Vibha Masti</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -76,16 +77,16 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../../styles.scss">
-<meta name="twitter:title" content="UE19CY101 - Engineering Chemistry – Vibha Masti">
-<meta name="twitter:description" content="">
-<meta name="twitter:image" content="cy_thumbnail.png">
+<meta name="twitter:title" content="Do Diffusion-Based Image Generation Models Understand Concepts? – Vibha Masti">
+<meta name="twitter:description" content="Accelerated backend for a PyTorch clone optimized for Apple’s M-series hardware with 80x matmul speedup over CPU">
+<meta name="twitter:image" content="thumbnail.png">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
@@ -127,106 +128,55 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-body">
-      <h1 class="title">UE19CY101 - Engineering Chemistry</h1>
-                                <div class="quarto-categories">
-                <div class="quarto-category">chem</div>
-                <div class="quarto-category">sem1</div>
-              </div>
-                  </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta">
-
-      <div>
-      <div class="quarto-title-meta-heading">Author</div>
-      <div class="quarto-title-meta-contents">
-               <p>Vibha Masti </p>
-            </div>
-    </div>
-      
-      <div>
-      <div class="quarto-title-meta-heading">Published</div>
-      <div class="quarto-title-meta-contents">
-        <p class="date">December 1, 2019</p>
-      </div>
-    </div>
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Do Diffusion-Based Image Generation Models Understand Concepts?</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">ml systems</div>
+    <div class="quarto-category">ml</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    <em>Accelerated backend for a PyTorch clone optimized for Apple’s M-series hardware with 80x matmul speedup over CPU</em>
+  </div>
+</div>
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Vibha Masti </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">December 1, 2024</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
 
 
 
 
-
-<p><strong>Course instructor:</strong> Prof.&nbsp;Lata Pasupulety</p>
-<p><br></p>
-<section id="syllabus-and-class-notes" class="level4">
-<h4 class="anchored" data-anchor-id="syllabus-and-class-notes">Syllabus and Class Notes</h4>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th style="text-align: left;">Unit</th>
-<th>Syllabus</th>
-<th>Vibha’s Notes</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">Unit 1</td>
-<td>TBA</td>
-<td><a href="01 Molecular Spectroscopy - Vibha.pdf">Molecular Spectroscopy.pdf</a> (scanned)</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Unit 2</td>
-<td>TBA</td>
-<td><a href="02 Equilibrium - Vibha.pdf">Equilibrium.pdf</a> (scanned)</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Unit 3</td>
-<td>TBA</td>
-<td><a href="03 Battery Technology - Vibha.pdf">Battery Technology.pdf</a> (scanned)</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Unit 4</td>
-<td>TBA</td>
-<td><a href="04 Corrosion.pdf">Corrosion.pdf</a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Unit 5</td>
-<td>TBA</td>
-<td><a href="05 Materials.pdf">Materials.pdf</a></td>
-</tr>
-</tbody>
-</table>
-<p><br></p>
-<!-- #### Textbooks: 
-
--  **T1**: "Learning PHP, MySQL & JavaScript", Robin Nixon. May 2018, 5th edition, O'Reilly Media, Inc.
--  **T2**: "Pro MERN Stack: Full Stack Web App Development with Mongo, Express, React, and Node", by Vasan Subramanian. March 2017, Apress
-
-<br>
-
-#### Reference Books:
-
-- **R1**: "Beginning Node.js, Express & MongoDB Development", Greg Lim, July 2019
-- **R2**: "Learning React, Functional Web Development with React and Redux", Alex Banks and Eve Porcello, May 2017, O'Reilly Media, Inc.
-
-<br> -->
-
-
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

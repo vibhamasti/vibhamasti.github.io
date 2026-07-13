@@ -16,51 +16,11 @@ categories: [theory, cs, sem3]
 
 | Unit              | Syllabus                         |       Vibha's Notes                |
 | :---------------- | -------------------------------- | ---------------------------------- |
-| Unit 1            | - Mathematical Preliminaries \
-                      - Basic Notations \
-                      - Deterministic Finite Acceptors (DFA)  \
-                      - Non-Deterministic Finite Acceptors (NFA) \
-                      - $\lambda$-NFA (Lambda-NFA) \
-                      - Equivalence of Deterministic and Non-deterministic \
-                        Finite Acceptors \
-                      - Reduction of the number of states in Finite Automata \
-                        (Minimization of DFA)          | [AFLL Unit 1.pdf](AFLL%20Unit%201.pdf) |
-| Unit 2            | - Regular Expressions  \
-                      - Connection between Regular Expressions Regular Languages \
-                      - Regular Grammars  \
-                      - Properties of Regular Languages \
-                      - Pumping Lemma and identifying Non–Regular Languages | [AFLL Unit 2.pdf](AFLL%20Unit%202.pdf) |
-| Unit 3            | - Context Free Grammars \
-                      - Parsing and Ambiguity \
-                      - Formal Definitions of Pushdown Automata \
-                      - Deterministic Pushdown Automata \
-                      - Non Deterministic Pushdown Automata \
-                      - Methods for Transforming Grammars \
-                      - Two important Normal Forms \
-                      - A Membership Algorithm for Context–Free Languages \
-                      - Pushdown down Automata and Context Free Languages   | [AFLL Unit 3.pdf](AFLL%20Unit%203.pdf) |
-| Unit 4            | - Properties of Context–Free Languages \
-                      - Pumping Lemma for Context–Free Languages \
-                      - The Standard Turing Machine \
-                      - Combining Turing Machine for Complicated Tasks \
-                      - Turing Thesis \
-                      - Recursive and Recursively Enumerable Languages \
-                      - Context Sensitive Grammar and Languages \
-                      - The Chomsky Hierarchy \
-                      - Some Problems that Cannot be solved by Turing Machine \
-                      - PCP \
-                      - Undecidable Problems for Recursively Enumerable Languages  | [AFLL Unit 4.pdf](AFLL%20Unit%204.pdf) |
-| Unit 5            | - Propositional Logic: A very simple logic \
-                      - Syntax \
-                      - Semantics \
-                      - A simple knowledge Base \
-                      - A simple Inference procedure \
-                      - Inferences and Proofs \
-                      - Proof by resolution \
-                      - First Order Logic: Syntax and Semantics of First \
-                        order logic \
-                      - Numbers, Sets and Lists \
-                      - Example - The electronic circuit Domain   | [AFLL Unit 5.pdf](AFLL%20Unit%205.pdf) |
+| Unit 1            | - Mathematical Preliminaries <br> - Basic Notations <br> - Deterministic Finite Acceptors (DFA) <br> - Non-Deterministic Finite Acceptors (NFA) <br> - $\lambda$-NFA (Lambda-NFA) <br> - Equivalence of Deterministic and Non-deterministic <br> Finite Acceptors <br> - Reduction of the number of states in Finite Automata <br> (Minimization of DFA)          | [AFLL Unit 1.pdf](AFLL%20Unit%201.pdf) |
+| Unit 2            | - Regular Expressions <br> - Connection between Regular Expressions Regular Languages <br> - Regular Grammars <br> - Properties of Regular Languages <br> - Pumping Lemma and identifying Non–Regular Languages | [AFLL Unit 2.pdf](AFLL%20Unit%202.pdf) |
+| Unit 3            | - Context Free Grammars <br> - Parsing and Ambiguity <br> - Formal Definitions of Pushdown Automata <br> - Deterministic Pushdown Automata <br> - Non Deterministic Pushdown Automata <br> - Methods for Transforming Grammars <br> - Two important Normal Forms <br> - A Membership Algorithm for Context–Free Languages <br> - Pushdown down Automata and Context Free Languages   | [AFLL Unit 3.pdf](AFLL%20Unit%203.pdf) |
+| Unit 4            | - Properties of Context–Free Languages <br> - Pumping Lemma for Context–Free Languages <br> - The Standard Turing Machine <br> - Combining Turing Machine for Complicated Tasks <br> - Turing Thesis <br> - Recursive and Recursively Enumerable Languages <br> - Context Sensitive Grammar and Languages <br> - The Chomsky Hierarchy <br> - Some Problems that Cannot be solved by Turing Machine <br> - PCP <br> - Undecidable Problems for Recursively Enumerable Languages  | [AFLL Unit 4.pdf](AFLL%20Unit%204.pdf) |
+| Unit 5            | - Propositional Logic: A very simple logic <br> - Syntax <br> - Semantics <br> - A simple knowledge Base <br> - A simple Inference procedure <br> - Inferences and Proofs <br> - Proof by resolution <br> - First Order Logic: Syntax and Semantics of First <br> order logic <br> - Numbers, Sets and Lists <br> - Example - The electronic circuit Domain   | [AFLL Unit 5.pdf](AFLL%20Unit%205.pdf) |
 
 
 <br>

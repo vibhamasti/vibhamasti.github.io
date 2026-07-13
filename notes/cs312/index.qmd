@@ -16,8 +16,7 @@ categories: [ml, cs, sem5]
 
 | Unit              | Syllabus                         |       Vibha's Notes                |
 | :---------------- | -------------------------------- | ---------------------------------- |
-| Unit 1            | Exploratory Data Analysis and Visualization | [DA Unit 1.pdf](DA%20Unit%201.pdf) \
-                              [Introduction to R.pdf](IntroToR%20-%20Vibha%20Masti.pdf) |
+| Unit 1            | Exploratory Data Analysis and Visualization | [DA Unit 1.pdf](DA%20Unit%201.pdf) <br> [Introduction to R.pdf](IntroToR%20-%20Vibha%20Masti.pdf) |
 | Unit 2            | Regression Analysis | [DA Unit 2.pdf](DA%20Unit%202.pdf) |
 | Unit 3            | Time Series Analysis  | [DA Unit 3.pdf](DA%20Unit%203.pdf) |
 | Unit 4            | Recommendation Systems | [DA Unit 4.pdf](DA%20Unit%204.pdf) |

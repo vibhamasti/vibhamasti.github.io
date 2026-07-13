@@ -16,12 +16,11 @@ categories: [physics, sem2]
 
 | Unit              | Syllabus                         |       Vibha's Notes                |
 | :---------------- | -------------------------------- | ---------------------------------- |
-| Unit 1            |  TBA  | [Quantum Mechanics.pdf](01%20Quantum%20Mechanics%20-%20Vibha.pdf) |
-| Unit 2            | TBA | [Formulation of Quantum Mechanics.pdf](02%20Formulation%20of%20QM%20-%20Vibha.pdf) |
-| Unit 3            | TBA  | [Electrical Conduction in Metals.pdf](03%20Electrical%20Conduction%20in%20Metals%20-%20Vibha.pdf) |
-| Unit 4            | TBA | [LASERs.pdf](04%20LASERs%20-%20Vibha.pdf)  |
-| Unit 5            | TBA | [Dielectric and Magnetic Materials.pdf](05%20Dielectric%20and%20Magnetic%20Materials%20-%20Vibha.pdf) |
-
+| Unit 1            | Quantum Mechanics | [Quantum Mechanics.pdf](01%20Quantum%20Mechanics%20-%20Vibha.pdf) |
+| Unit 2            | Formulation of Quantum Mechanics | [Formulation of Quantum Mechanics.pdf](02%20Formulation%20of%20QM%20-%20Vibha.pdf) |
+| Unit 3            | Electrical Conduction in Metals  | [Electrical Conduction in Metals.pdf](03%20Electrical%20Conduction%20in%20Metals%20-%20Vibha.pdf) |
+| Unit 4            | LASERs | [LASERs.pdf](04%20LASERs%20-%20Vibha.pdf)  |
+| Unit 5            | Dielectric and Magnetic Materials | [Dielectric and Magnetic Materials.pdf](05%20Dielectric%20and%20Magnetic%20Materials%20-%20Vibha.pdf) |
 
 <br>
 
