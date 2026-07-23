@@ -21,18 +21,21 @@ about:
     - icon: linkedin
       text: linkedin
       href: https://www.linkedin.com/in/vibha-masti/
-    - icon: youtube
-      text: youtube
-      href: https://www.youtube.com/@VibhaMasti
     - icon: medium
       text: medium
       href: https://medium.com/@vibhamasti
+    - icon: substack
+      text: substack
+      href: https://substack.com/@vibhamasti
     - icon: github
       text: github
       href: https://github.com/vibhamasti
     - icon: mortarboard-fill
       text: google scholar
       href: https://scholar.google.com/citations?user=v7O9-RgAAAAJ&hl=en
+    # - icon: youtube
+    #   text: youtube
+    #   href: https://www.youtube.com/@VibhaMasti
 
     # https://www.lti.cs.cmu.edu/people/students/masti-vibha.html
 

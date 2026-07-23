@@ -1,11 +1,5 @@
 [
   {
-    "listing": "/blog.html",
-    "items": [
-      "/blog/chai-crumble-cake/index.html"
-    ]
-  },
-  {
     "listing": "/notes.html",
     "items": [
       "/notes/cs352/index.html",
